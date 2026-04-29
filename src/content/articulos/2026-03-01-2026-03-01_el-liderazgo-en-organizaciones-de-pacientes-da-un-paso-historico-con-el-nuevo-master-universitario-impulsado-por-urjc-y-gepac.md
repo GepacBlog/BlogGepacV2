@@ -1,5 +1,5 @@
 ---
-titulo: "El liderazgo en organizaciones de pacientes da un paso histórico con el nuevo Máster Universitario impulsado por URJC y GEPAC"
+titulo: "El liderazgo en organizaciones de pacientes da un paso histórico con el nuevo Máster de formación permanente impulsado por URJC y GEPAC"
 fecha: 2026-03-01
 categoria: asociacion
 tags: []
@@ -8,14 +8,14 @@ autor: "Equipo GEPAC"
 layout_imagen: "contain"
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-03-01_gepac_el-liderazgo-en-organizaciones-de-pacientes-da-un-paso-historico-con-el-nuevo-master-universitario-impulsado-por-urjc-y-gepac_01.png"
-  alt: "El liderazgo en organizaciones de pacientes da un paso histórico con el nuevo Máster Universitario impulsado por URJC y GEPAC"
+  alt: "El liderazgo en organizaciones de pacientes da un paso histórico con el nuevo Máster de formación permanente impulsado por URJC y GEPAC"
 destacado: false
 estado: publicado
 ---
 
 El papel de las organizaciones de pacientes en el sistema sanitario ha evolucionado de forma significativa en los últimos años. Hoy participan en espacios de decisión, investigación, evaluación de tecnologías sanitarias, acceso a tratamientos y elaboración de políticas públicas. Sin embargo, esta creciente responsabilidad no había ido acompañada, hasta ahora, de una formación universitaria específica orientada a profesionalizar su liderazgo y gestión.
 
-Con el objetivo de dar respuesta a esta necesidad, la Universidad Rey Juan Carlos, en colaboración con GEPAC, impulsa el Máster Universitario en Liderazgo y Gestión de Organizaciones de Pacientes, una formación pionera en España que comenzará el próximo 7 de abril.
+Con el objetivo de dar respuesta a esta necesidad, la Universidad Rey Juan Carlos, en colaboración con GEPAC, impulsa el Máster de formación permanente en Liderazgo y Gestión de Organizaciones de Pacientes, una formación pionera en España que comenzará el próximo 7 de abril.
 
 Se trata de un máster propio de universidad pública, con un enfoque riguroso, transversal y alineado con los principios de ética, transparencia y buen gobierno que exige el entorno sanitario actual. El programa nace con una doble vocación: fortalecer la profesionalización del movimiento asociativo y contribuir a un sistema sanitario más participativo, equitativo y centrado en las personas.
 
