@@ -406,6 +406,9 @@ button { font: inherit; cursor: pointer; background: none; border: 0; color: inh
   object-fit: cover;
   transition: transform .4s ease;
 }
+.article-image[data-fit="contain"] {
+  background: transparent;
+}
 .article-image[data-fit="contain"] img {
   object-fit: contain;
 }
@@ -533,6 +536,9 @@ button { font: inherit; cursor: pointer; background: none; border: 0; color: inh
   overflow: hidden;
 }
 .featured-image img { width: 100%; height: 100%; object-fit: cover; }
+.featured-image[data-fit="contain"] {
+  background: transparent;
+}
 .featured-image[data-fit="contain"] img {
   object-fit: contain;
 }
@@ -745,6 +751,9 @@ button { font: inherit; cursor: pointer; background: none; border: 0; color: inh
   aspect-ratio: 16 / 9;
   object-fit: cover;
   border: 1px solid var(--line);
+}
+.article-cover[data-fit="contain"] {
+  background: transparent;
 }
 .article-cover[data-fit="contain"] img {
   object-fit: contain;
