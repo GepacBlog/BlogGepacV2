@@ -7,17 +7,17 @@
 
 :root {
   /* COLOR — modo claro (default) */
-  --bg:           #FBFAF6;
-  --bg-tint:      #F2F0E8;
-  --bg-elev:      #FFFFFF;
+  --bg:           #F7F3FA;
+  --bg-tint:      #EEE7F4;
+  --bg-elev:      #FCFAFE;
   --ink:          #161616;
   --ink-soft:     #3A3A38;
   --ink-mute:     #6E6C66;
-  --line:         #E1DED4;
+  --line:         #DED5E7;
   --line-strong:  #161616;
-  --accent:       #2C4A6B;
-  --accent-deep:  #1F3650;
-  --accent-soft:  #DDE5EE;
+  --accent:       #5E4B8B;
+  --accent-deep:  #49376F;
+  --accent-soft:  #E6DFF1;
 
   /* CATEGORÍAS — colores semánticos sutiles */
   --cat-investigacion:    #4A6B8A;
