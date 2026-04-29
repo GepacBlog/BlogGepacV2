@@ -756,10 +756,15 @@ button { font: inherit; cursor: pointer; background: none; border: 0; color: inh
 }
 .article-cover[data-fit="contain"] {
   background: none;
+  border: 0;
+}
+.article-cover[data-fit="contain"] figure {
+  background: none;
+  border: 0;
 }
 .article-cover[data-fit="contain"] img {
   object-fit: contain;
-  border-color: transparent;
+  border: 0;
 }
 .article-cover figcaption {
   margin-top: var(--s-3);
