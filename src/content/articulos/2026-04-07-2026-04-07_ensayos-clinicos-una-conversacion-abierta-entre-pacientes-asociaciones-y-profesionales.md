@@ -5,14 +5,13 @@ categoria: investigacion
 tags: []
 resumen: "Un espacio de diálogo para acercar la investigación clínica a pacientes y ciudadanía desde la experiencia compartida."
 autor: "Equipo GEPAC"
+layout_imagen: "contain"
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-04-07_gepac_ensayos-clinicos-una-conversacion-abierta-entre-pacientes-asociaciones-y-profesionales_01.png"
   alt: "Ensayos clínicos: una conversación abierta entre pacientes, asociaciones y profesionales"
 destacado: false
 estado: publicado
 ---
-
-## Ensayos clínicos: una conversación abierta entre pacientes, asociaciones y profesionales
 
 **Un espacio de diálogo para acercar la investigación clínica a pacientes y ciudadanía desde la experiencia compartida.**
 
