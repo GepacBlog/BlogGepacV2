@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-[← Volver a portada](../../../../index.html)
-
 ## Ensayos clínicos: una conversación abierta entre pacientes, asociaciones y profesionales
 
 **Un espacio de diálogo para acercar la investigación clínica a pacientes y ciudadanía desde la experiencia compartida.**

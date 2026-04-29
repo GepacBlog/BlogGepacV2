@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-[← Volver a portada](../../../../index.html)
-
 ## ADMO celebra su V Encuentro de Pacientes Oncohematológicos Adultos en Cáceres
 
 **La Asociación para la Donación de Médula Ósea de Extremadura (ADMO) celebró su V Encuentro con Pacientes Oncohematológicos Adultos en Cáceres, una jornada centrada en el acompañamiento emocional, la reflexión compartida y el bienestar de pacientes y familias.**
