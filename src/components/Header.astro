@@ -1,13 +1,14 @@
 ---
 const { current } = Astro.props;
-const logoSrc = `${import.meta.env.BASE_URL}assets/gepac-logo.webp`.replace('/BlogGepacV2assets/', '/BlogGepacV2/assets/');
+const baseHref = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const logoSrc = `${baseHref}assets/gepac-logo.webp`;
 
-const homeHref = import.meta.env.BASE_URL;
+const homeHref = baseHref;
 const links = [
-  { href: homeHref,                    label: 'Portada',  key: 'home' },
-  { href: `${homeHref}archivo/`,      label: 'Archivo',  key: 'archivo' },
-  { href: `${homeHref}relatos/`,      label: 'Relatos',  key: 'relatos' },
-  { href: `${homeHref}buscar/`,       label: 'Buscar',   key: 'buscar' }
+  { href: homeHref,               label: 'Portada',  key: 'home' },
+  { href: `${homeHref}archivo/`, label: 'Archivo',  key: 'archivo' },
+  { href: `${homeHref}relatos/`, label: 'Relatos',  key: 'relatos' },
+  { href: `${homeHref}buscar/`,  label: 'Buscar',   key: 'buscar' }
 ];
 ---
 <header class="site-header">

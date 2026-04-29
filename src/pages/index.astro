@@ -14,7 +14,7 @@ const resto = publicados.filter(a => a.slug !== destacado?.slug);
 
 const categorias = Object.entries(CATEGORIAS);
 const ultimos = resto.slice(0, 6);
-const homeHref = import.meta.env.BASE_URL;
+const homeHref = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 ---
 <Base title="GEPAC · Información de salud para pacientes y familiares" current="home">
 
