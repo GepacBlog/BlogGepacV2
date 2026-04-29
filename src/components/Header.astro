@@ -2,18 +2,19 @@
 const { current } = Astro.props;
 const logoSrc = `${import.meta.env.BASE_URL}assets/gepac-logo.webp`.replace('/BlogGepacV2assets/', '/BlogGepacV2/assets/');
 
+const homeHref = import.meta.env.BASE_URL;
 const links = [
-  { href: '/',          label: 'Portada',  key: 'home' },
-  { href: '/archivo',   label: 'Archivo',  key: 'archivo' },
-  { href: '/relatos',   label: 'Relatos',  key: 'relatos' },
-  { href: '/buscar',    label: 'Buscar',   key: 'buscar' }
+  { href: homeHref,                    label: 'Portada',  key: 'home' },
+  { href: `${homeHref}archivo/`,      label: 'Archivo',  key: 'archivo' },
+  { href: `${homeHref}relatos/`,      label: 'Relatos',  key: 'relatos' },
+  { href: `${homeHref}buscar/`,       label: 'Buscar',   key: 'buscar' }
 ];
 ---
 <header class="site-header">
   <div class="container">
 
     <div class="header-top">
-      <a href="/" class="brand-block" aria-label="Inicio · Blog GEPAC">
+      <a href={homeHref} class="brand-block" aria-label="Inicio · Blog GEPAC">
         <img class="brand-logo" src={logoSrc} alt="Logo GEPAC" />
         <span class="brand-text">
           <span class="brand-tag">Información de salud para pacientes y familiares</span>
@@ -21,7 +22,7 @@ const links = [
       </a>
 
       <div class="header-tools">
-        <a href="/buscar" class="icon-btn" aria-label="Buscar">
+        <a href={`${homeHref}buscar/`} class="icon-btn" aria-label="Buscar">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
         </a>
         <button class="icon-btn theme-toggle" aria-label="Cambiar tema" type="button" id="theme-toggle">

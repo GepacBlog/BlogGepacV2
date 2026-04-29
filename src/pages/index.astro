@@ -14,6 +14,7 @@ const resto = publicados.filter(a => a.slug !== destacado?.slug);
 
 const categorias = Object.entries(CATEGORIAS);
 const ultimos = resto.slice(0, 6);
+const homeHref = import.meta.env.BASE_URL;
 ---
 <Base title="GEPAC · Información de salud para pacientes y familiares" current="home">
 
@@ -37,7 +38,7 @@ const ultimos = resto.slice(0, 6);
         <p class="section-kicker">Últimas publicaciones</p>
         <h2 class="h2">Artículos recientes</h2>
       </div>
-      <a href="/archivo" class="section-link">Ir al archivo completo →</a>
+      <a href={`${homeHref}archivo/`} class="section-link">Ir al archivo completo →</a>
     </div>
 
     {ultimos.length > 0 ? (
@@ -62,7 +63,7 @@ const ultimos = resto.slice(0, 6);
 
     <div class="filters home-category-grid" role="navigation" aria-label="Ir a categorías">
       {categorias.slice(0, 6).map(([slug, info]) => (
-        <a href={`/categoria/${slug}`} class="filter-chip home-category-chip">{info.label}</a>
+        <a href={`${homeHref}categoria/${slug}/`} class="filter-chip home-category-chip">{info.label}</a>
       ))}
     </div>
   </section>

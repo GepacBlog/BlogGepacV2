@@ -1,5 +1,6 @@
 ---
 const year = new Date().getFullYear();
+const homeHref = import.meta.env.BASE_URL;
 const logoSrc = `${import.meta.env.BASE_URL}assets/gepac-logo.webp`.replace('/BlogGepacV2assets/', '/BlogGepacV2/assets/');
 ---
 <footer class="site-footer">
@@ -13,10 +14,10 @@ const logoSrc = `${import.meta.env.BASE_URL}assets/gepac-logo.webp`.replace('/Bl
 
       <div class="footer-col">
         <h4>Navegación</h4>
-        <a href="/">Portada</a>
-        <a href="/archivo">Archivo</a>
-        <a href="/relatos">Relatos</a>
-        <a href="/buscar">Buscar</a>
+        <a href={homeHref}>Portada</a>
+        <a href={`${homeHref}archivo/`}>Archivo</a>
+        <a href={`${homeHref}relatos/`}>Relatos</a>
+        <a href={`${homeHref}buscar/`}>Buscar</a>
       </div>
 
       <div class="footer-col">

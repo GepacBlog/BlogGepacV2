@@ -85,7 +85,7 @@ const minutos = data.tiempo_lectura ?? tiempoLectura(articulo.body);
       )}
 
       <p style="margin-top: var(--s-7); font-family: var(--font-mono); font-size: 0.85rem; color: var(--ink-mute);">
-        <a href="/" style="color: var(--accent);">← Volver a la portada</a>
+        <a href={import.meta.env.BASE_URL} style="color: var(--accent);">← Volver a la portada</a>
       </p>
     </footer>
 
