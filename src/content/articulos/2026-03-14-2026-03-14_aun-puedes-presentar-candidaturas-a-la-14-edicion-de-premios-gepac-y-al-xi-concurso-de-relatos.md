@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-Editorial GEPAC · 2026-03-14
-
 **GEPAC recuerda que siguen abiertos los plazos para participar en dos de sus iniciativas más destacadas de 2026:** la **14ª Edición de los Premios GEPAC** y el **XI Concurso de Relatos de GEPAC**.
 
 ## Plazos abiertos y participación activa

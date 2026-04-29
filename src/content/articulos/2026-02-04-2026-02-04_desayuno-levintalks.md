@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-Editorial GEPAC · 2026-02-04 · Equipo GEPAC
-
 Serie GEPAC – Desayuno LevinTalks
 GEPAC participa en los Desayunos LevinTalks junto a la ministra de Sanidad para abordar los retos del sistema sanitario
 

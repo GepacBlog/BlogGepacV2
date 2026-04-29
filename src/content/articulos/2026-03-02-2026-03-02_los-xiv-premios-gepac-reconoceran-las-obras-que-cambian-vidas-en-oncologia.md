@@ -12,11 +12,8 @@ destacado: false
 estado: publicado
 ---
 
-Editorial GEPAC · 2026-03-02 · Equipo GEPAC
-
 Los XIV Premios GEPAC reconocerán iniciativas que mejoran la vida de pacientes con cáncer el 23 de abril de 2026 en Madrid.
 
-Los XIV Premios GEPAC reconocerán las “Obras que cambian vidas” en oncología
 La colaboración entre pacientes, profesionales sanitarios, investigadores, instituciones y sociedad civil es un elemento clave para mejorar la vida de las personas con cáncer. Con este objetivo, el Grupo Español de Pacientes con Cáncer (GEPAC) celebrará la XIV edición de los Premios GEPAC, una iniciativa que busca reconocer públicamente a quienes trabajan cada día para transformar la realidad del cáncer en nuestro país.
 Bajo el lema “Obras que cambian vidas”, esta nueva edición pone el foco en la importancia del esfuerzo colectivo y de las sinergias entre los diferentes agentes del sistema sanitario y social que contribuyen a mejorar la calidad de vida de los pacientes oncológicos.
 El evento se celebrará el 23 de abril de 2026 a las 19:00 horas en la Universidad CEU San Pablo de Madrid, en una jornada que reunirá a pacientes, profesionales sanitarios, entidades, investigadores y representantes institucionales para reconocer proyectos e iniciativas destacadas desarrolladas durante 2025.
@@ -46,4 +43,3 @@ La ceremonia del 23 de abril será, por tanto, un punto de encuentro para recono
 XIV Premios GEPAC: obras que cambian vidas
 Los XIV Premios GEPAC reconocerán iniciativas que mejoran la vida de pacientes con cáncer el 23 de abril de 2026 en Madrid.
 
-Contenido elaborado por GEPAC · XIV Premios GEPAC “Obras que cambian vidas” [gepac.es](https://www.gepac.es/)

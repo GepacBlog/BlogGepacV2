@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-Editorial GEPAC · 2026-02-03 · Equipo GEPAC
-
 Serie GEPAC – Día Mundial contra el Cáncer
 El Día Mundial contra el Cáncer es cada día: una llamada a la acción permanente
 

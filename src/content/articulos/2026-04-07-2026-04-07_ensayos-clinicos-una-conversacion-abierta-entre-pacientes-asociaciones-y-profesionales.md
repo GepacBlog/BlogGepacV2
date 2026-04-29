@@ -16,8 +16,6 @@ estado: publicado
 
 ## Ensayos clínicos: una conversación abierta entre pacientes, asociaciones y profesionales
 
-GEPAC2026-04-07·Equipo GEPAC
-
 **Un espacio de diálogo para acercar la investigación clínica a pacientes y ciudadanía desde la experiencia compartida.**
 
 El Hospital Universitario Ramón y Cajal acogió una mesa redonda sobre ensayos clínicos dirigida a pacientes y ciudadanía, con el objetivo de acercar la investigación clínica, resolver dudas y compartir experiencias reales desde un enfoque claro y centrado en las personas.

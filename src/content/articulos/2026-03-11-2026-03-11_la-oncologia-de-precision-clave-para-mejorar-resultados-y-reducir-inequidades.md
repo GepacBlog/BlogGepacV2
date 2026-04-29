@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-Editorial GEPAC · 2026-03-11 · Redacción GEPAC
-
 ## Un cambio de paradigma en la atención oncológica
 
 La oncología de precisión se consolida como una herramienta esencial para mejorar la atención al cáncer y reducir desigualdades en el acceso a la innovación. Esta fue la principal conclusión del encuentro Impulsar la Oncología de Precisión en España, celebrado en Toledo con participación de representantes institucionales, profesionales sanitarios, asociaciones de pacientes e industria.

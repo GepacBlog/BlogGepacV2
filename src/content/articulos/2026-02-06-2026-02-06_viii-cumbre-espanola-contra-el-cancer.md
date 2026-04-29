@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-Editorial GEPAC · 2026-02-06 · Equipo GEPAC
-
 GEPAC reúne a pacientes e instituciones en el Congreso para reforzar el papel del movimiento asociativo en la atención al cáncer.
 
 Serie GEPAC – VIII Cumbre Española contra el Cáncer

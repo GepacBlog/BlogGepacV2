@@ -12,11 +12,8 @@ destacado: false
 estado: publicado
 ---
 
-Editorial GEPAC · 2026-03-03 · Equipo GEPAC
-
 CRIS Contra el Cáncer y la UCM entregan las becas de la Cátedra CRIS-UCM para impulsar la investigación oncológica entre estudiantes de Medicina.
 
-La Cátedra Extraordinaria CRIS-UCM impulsa el futuro de los médicos investigadores en España
 La investigación biomédica es una de las claves para avanzar en la lucha contra el cáncer y mejorar los resultados para los pacientes. En este contexto, la Fundación CRIS Contra el Cáncer y la Universidad Complutense de Madrid (UCM) han celebrado la entrega de la IV edición de las Becas de la Cátedra Extraordinaria CRIS-UCM, una iniciativa destinada a fomentar la vocación investigadora entre los estudiantes de Medicina.
 El acto de entrega de las becas se ha celebrado en la Facultad de Medicina de la Universidad Complutense de Madrid, con la participación de representantes académicos y científicos que han destacado la importancia de impulsar el talento joven en el ámbito de la investigación oncológica.
 
@@ -49,4 +46,3 @@ Con esta iniciativa, CRIS Contra el Cáncer y la Universidad Complutense de Madr
 CRIS y la UCM impulsan el futuro del médico investigador
 CRIS Contra el Cáncer y la UCM entregan las becas de la Cátedra CRIS-UCM para impulsar la investigación oncológica entre estudiantes de Medicina.
 
-Contenido elaborado por GEPAC · Becas de la Cátedra Extraordinaria CRIS-UCM [gepac.es](https://www.gepac.es/)

@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-Editorial GEPAC · 2026-03-10 · Equipo GEPAC
-
 ## El papel silencioso de la informática en las asociaciones de pacientes
 
 Cuando una persona recibe un diagnóstico de cáncer, una de las primeras reacciones suele ser buscar información. No se trata solo de entender un término médico o de conocer un tratamiento. Lo que se busca, en realidad, es orientación, contexto y, en muchos casos, una cierta sensación de amparo en medio de la incertidumbre. En ese momento, las asociaciones de pacientes desempeñan una función decisiva, son espacios de información, acompañamiento y apoyo que, con frecuencia, se convierten en una referencia estable para pacientes y familiares.

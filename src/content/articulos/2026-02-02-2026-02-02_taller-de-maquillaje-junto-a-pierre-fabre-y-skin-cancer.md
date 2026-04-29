@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-Editorial GEPAC · 2026-02-02 · Equipo GEPAC
-
 Serie GEPAC – Taller de Maquillaje junto a Pierre Fabre y Skin Cancer
 GEPAC impulsa un taller de maquillaje y cuidados de la piel para pacientes oncológicos junto a Pierre Fabre y SkinCancer
 

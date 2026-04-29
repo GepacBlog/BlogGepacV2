@@ -12,11 +12,8 @@ destacado: false
 estado: publicado
 ---
 
-Editorial GEPAC · 2026-02-05 · Equipo GEPAC
-
 La Fundación Leucemia y Linfoma abre la convocatoria de la Beca Asun Almajano 2026 para apoyar proyectos de investigación en enfermedades oncohematológicas y fomentar avances clínicos en leucemia, linfoma y mieloma.
 
-La Fundación Leucemia y Linfoma convoca la Beca “Asun Almajano” 2026 para impulsar la investigación en enfermedades oncohematológicas
 La Fundación Leucemia y Linfoma (FLL) ha abierto la convocatoria de la Beca “Asun Almajano” 2026, una iniciativa destinada a financiar proyectos de investigación que contribuyan a la mejora en el diagnóstico y tratamiento de la leucemia, el linfoma, el mieloma y otras enfermedades hematológicas afines
 La beca cuenta con una dotación económica de 20.000 euros, que se destinarán íntegramente al investigador o equipo adjudicatario, sin contemplar costes indirectos u overhead.
 El periodo de ejecución del proyecto se desarrollará entre el 10 de junio de 2026 y el 21 de julio de 2027, con una duración mínima de nueve meses y máxima de doce.
