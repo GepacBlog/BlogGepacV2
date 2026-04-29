@@ -102,3 +102,4 @@ El sistema está pensado para clonarse:
 2. Cambiar tokens de marca en `Header.astro` / `Footer.astro`
 3. Cambiar `--accent` y nombre del proyecto
 4. Listo. Mismo agente IA puede alimentar ambos blogs siguiendo el mismo `AGENT_SPEC.md`.
+
