@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+import ArticleRow from '../../components/ArticleRow.astro';
+import { getCollection } from 'astro:content';
+import { articulosPublicados, CATEGORIAS, categoriaLabel } from '../../lib/utils.js';
+
+export async function getStaticPaths() {
+  return Object.keys(CATEGORIAS).map(slug => ({ params: { categoria: slug } }));
+}
+
+const { categoria } = Astro.params;
+const todos = await getCollection('articulos');
+const filtrados = articulosPublicados(todos).filter(a => a.data.categoria === categoria);
+const label = categoriaLabel(categoria);
+---
+<Base title={`${label} · GEPAC`}>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="page-eyebrow"><span class="num">·</span> Categoría</p>
+      <h1 class="page-title">{label}</h1>
+      <p class="page-lede">
+        {filtrados.length} {filtrados.length === 1 ? 'artículo publicado' : 'artículos publicados'} en esta categoría.
+      </p>
+    </div>
+  </section>
+
+  <div class="container">
+
+    <p style="margin-top: var(--s-6);">
+      <a href="/" style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--accent);">← Todas las categorías</a>
+    </p>
+
+    {filtrados.length > 0 ? (
+      <div class="article-list" style="margin-top: var(--s-5);">
+        {filtrados.map(a => <ArticleRow articulo={a} />)}
+      </div>
+    ) : (
+      <div class="empty-state">
+        <h3>Sin artículos en esta categoría todavía</h3>
+      </div>
+    )}
+
+  </div>
+
+</Base>

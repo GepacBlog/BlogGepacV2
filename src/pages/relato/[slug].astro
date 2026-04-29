@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { formatFecha, tiempoLectura } from '../../lib/utils.js';
+
+export async function getStaticPaths() {
+  const relatos = await getCollection('relatos');
+  return relatos
+    .filter(r => r.data.estado !== 'borrador' && r.data.estado !== 'archivado')
+    .map(r => ({ params: { slug: r.slug }, props: { relato: r } }));
+}
+
+const { relato } = Astro.props;
+const { Content } = await relato.render();
+const { data } = relato;
+const minutos = tiempoLectura(relato.body);
+---
+<Base
+  title={`${data.titulo} · Relatos GEPAC`}
+  description={data.resumen}
+  ogImage={data.imagen?.url}
+>
+  <article class="article">
+
+    <header class="article-header">
+      <div class="article-eyebrow">
+        <span class="cat">Relato</span>
+        <time datetime={data.fecha.toISOString()}>{formatFecha(data.fecha)}</time>
+        <span>{minutos} min de lectura</span>
+      </div>
+      <h1 class="article-h1">{data.titulo}</h1>
+
+      <div class="article-byline">
+        <span><strong>Por</strong> {data.autor}</span>
+        {data.autor_nota && <span>{data.autor_nota}</span>}
+      </div>
+
+      {data.aviso_lectura && (
+        <p style="margin-top: var(--s-5); padding: var(--s-4); background: var(--bg-tint); border-left: 2px solid var(--accent); font-family: var(--font-ui); font-size: 0.95rem; color: var(--ink-soft);">
+          <strong style="font-family: var(--font-mono); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-mute); display: block; margin-bottom: 6px;">Aviso de lectura</strong>
+          {data.aviso_lectura}
+        </p>
+      )}
+    </header>
+
+    {data.imagen?.url && (
+      <div class="article-cover">
+        <figure>
+          <img src={data.imagen.url} alt={data.imagen.alt} />
+        </figure>
+      </div>
+    )}
+
+    <div class="article-content">
+      <Content />
+    </div>
+
+    <footer class="article-footer">
+      <p style="margin-top: var(--s-7); font-family: var(--font-mono); font-size: 0.85rem; color: var(--ink-mute);">
+        <a href="/relatos" style="color: var(--accent);">← Volver a relatos</a>
+      </p>
+    </footer>
+
+  </article>
+</Base>

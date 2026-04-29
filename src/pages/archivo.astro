@@ -1,0 +1,113 @@
+---
+import Base from '../layouts/Base.astro';
+import ArticleRow from '../components/ArticleRow.astro';
+import { getCollection } from 'astro:content';
+import { articulosPublicados, CATEGORIAS } from '../lib/utils.js';
+
+const todos = await getCollection('articulos');
+const publicados = articulosPublicados(todos);
+
+// Lista de años disponibles
+const aniosSet = new Set(publicados.map(a => new Date(a.data.fecha).getFullYear()));
+const anios = Array.from(aniosSet).sort((a, b) => b - a);
+
+const categorias = Object.entries(CATEGORIAS);
+---
+<Base title="Archivo histórico · GEPAC" current="archivo">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="page-eyebrow"><span class="num">·</span> Archivo</p>
+      <h1 class="page-title">Archivo histórico de publicaciones</h1>
+      <p class="page-lede">
+        Todas las noticias y artículos publicados, ordenados por fecha. Usa los filtros para acotar por categoría, año o mes.
+      </p>
+    </div>
+  </section>
+
+  <div class="container">
+
+    <div class="toolbar">
+      <div class="toolbar-group">
+        <label for="filter-cat">Categoría</label>
+        <select id="filter-cat">
+          <option value="">Todas</option>
+          {categorias.map(([slug, info]) => (
+            <option value={slug}>{info.label}</option>
+          ))}
+        </select>
+      </div>
+      <div class="toolbar-group">
+        <label for="filter-year">Año</label>
+        <select id="filter-year">
+          <option value="">Todos</option>
+          {anios.map(y => <option value={y}>{y}</option>)}
+        </select>
+      </div>
+      <div class="toolbar-group">
+        <label for="filter-month">Mes</label>
+        <select id="filter-month">
+          <option value="">Todos</option>
+          <option value="01">Enero</option><option value="02">Febrero</option>
+          <option value="03">Marzo</option><option value="04">Abril</option>
+          <option value="05">Mayo</option><option value="06">Junio</option>
+          <option value="07">Julio</option><option value="08">Agosto</option>
+          <option value="09">Septiembre</option><option value="10">Octubre</option>
+          <option value="11">Noviembre</option><option value="12">Diciembre</option>
+        </select>
+      </div>
+    </div>
+
+    <p class="search-results-count" id="results-count">
+      {publicados.length} {publicados.length === 1 ? 'artículo' : 'artículos'}
+    </p>
+
+    {publicados.length > 0 ? (
+      <div class="article-list" id="archive-list">
+        {publicados.map(a => (
+          <div
+            data-cat={a.data.categoria}
+            data-year={new Date(a.data.fecha).getFullYear()}
+            data-month={String(new Date(a.data.fecha).getMonth() + 1).padStart(2, '0')}
+          >
+            <ArticleRow articulo={a} />
+          </div>
+        ))}
+      </div>
+    ) : (
+      <div class="empty-state">
+        <h3>El archivo está vacío</h3>
+        <p>Aún no hay artículos publicados.</p>
+      </div>
+    )}
+
+  </div>
+
+  <script>
+    const $cat = document.getElementById('filter-cat');
+    const $year = document.getElementById('filter-year');
+    const $month = document.getElementById('filter-month');
+    const $list = document.getElementById('archive-list');
+    const $count = document.getElementById('results-count');
+
+    function filtrar() {
+      if (!$list) return;
+      const cat = $cat.value;
+      const year = $year.value;
+      const month = $month.value;
+      let visibles = 0;
+      $list.querySelectorAll('[data-cat]').forEach(item => {
+        const okCat   = !cat   || item.dataset.cat   === cat;
+        const okYear  = !year  || item.dataset.year  === year;
+        const okMonth = !month || item.dataset.month === month;
+        const show = okCat && okYear && okMonth;
+        item.style.display = show ? '' : 'none';
+        if (show) visibles++;
+      });
+      $count.textContent = `${visibles} ${visibles === 1 ? 'artículo' : 'artículos'}`;
+    }
+
+    [$cat, $year, $month].forEach(el => el?.addEventListener('change', filtrar));
+  </script>
+
+</Base>

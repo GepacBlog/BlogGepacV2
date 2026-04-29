@@ -1,0 +1,94 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, getEntry } from 'astro:content';
+import { categoriaLabel, formatFecha, articulosPublicados, tiempoLectura } from '../../lib/utils.js';
+
+export async function getStaticPaths() {
+  const articulos = await getCollection('articulos');
+  return articulosPublicados(articulos).map(a => ({
+    params: { slug: a.slug },
+    props: { articulo: a }
+  }));
+}
+
+const { articulo } = Astro.props;
+const { Content } = await articulo.render();
+const { data } = articulo;
+
+const minutos = data.tiempo_lectura ?? tiempoLectura(articulo.body);
+---
+<Base
+  title={`${data.meta_titulo ?? data.titulo} · GEPAC`}
+  description={data.meta_descripcion ?? data.resumen}
+  ogImage={data.imagen?.url}
+>
+
+  <article class="article">
+
+    <header class="article-header">
+      <div class="article-eyebrow">
+        <span class="cat">{categoriaLabel(data.categoria)}</span>
+        <time datetime={data.fecha.toISOString()}>{formatFecha(data.fecha)}</time>
+        <span>{minutos} min de lectura</span>
+      </div>
+      <h1 class="article-h1">{data.titulo}</h1>
+      {data.subtitulo && <p class="article-subtitle">{data.subtitulo}</p>}
+
+      <div class="article-byline">
+        <span><strong>Por</strong> {data.autor}</span>
+        {data.fecha_actualizacion && (
+          <span><strong>Actualizado</strong> {formatFecha(data.fecha_actualizacion)}</span>
+        )}
+        {data.fuente?.nombre && (
+          <span><strong>Fuente</strong> {data.fuente.nombre}</span>
+        )}
+      </div>
+    </header>
+
+    {data.imagen?.url && (
+      <div class="article-cover">
+        <figure>
+          <img src={data.imagen.url} alt={data.imagen.alt} />
+          {(data.imagen.caption || data.imagen.credito) && (
+            <figcaption>
+              {data.imagen.caption}
+              {data.imagen.caption && data.imagen.credito && ' · '}
+              {data.imagen.credito && <span>{data.imagen.credito}</span>}
+            </figcaption>
+          )}
+        </figure>
+      </div>
+    )}
+
+    <div class="article-content">
+      <Content />
+    </div>
+
+    <footer class="article-footer">
+      {data.fuente?.nombre && (
+        <div class="source-card">
+          <p class="source-label">Fuente original</p>
+          <p class="source-name">
+            {data.fuente.url ? (
+              <a href={data.fuente.url} target="_blank" rel="noopener">{data.fuente.nombre} ↗</a>
+            ) : (
+              data.fuente.nombre
+            )}
+          </p>
+        </div>
+      )}
+
+      {data.tags && data.tags.length > 0 && (
+        <div style="margin-top: var(--s-5); display: flex; gap: var(--s-2); flex-wrap: wrap;">
+          {data.tags.map(t => <span class="tag">{t}</span>)}
+        </div>
+      )}
+
+      <p style="margin-top: var(--s-7); font-family: var(--font-mono); font-size: 0.85rem; color: var(--ink-mute);">
+        <a href="/" style="color: var(--accent);">← Volver a la portada</a>
+      </p>
+    </footer>
+
+  </article>
+
+</Base>

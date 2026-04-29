@@ -1,0 +1,40 @@
+---
+const { current } = Astro.props;
+
+const links = [
+  { href: '/',          label: 'Portada',  key: 'home' },
+  { href: '/archivo',   label: 'Archivo',  key: 'archivo' },
+  { href: '/relatos',   label: 'Relatos',  key: 'relatos' },
+  { href: '/buscar',    label: 'Buscar',   key: 'buscar' }
+];
+---
+<header class="site-header">
+  <div class="container">
+
+    <div class="header-top">
+      <a href="/" class="brand-block" aria-label="Inicio · Blog GEPAC">
+        <img class="brand-logo" src="/assets/gepac-logo.webp" alt="Logo GEPAC" />
+        <span class="brand-text">
+          <span class="brand-tag">Información de salud para pacientes y familiares</span>
+        </span>
+      </a>
+
+      <div class="header-tools">
+        <a href="/buscar" class="icon-btn" aria-label="Buscar">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </a>
+        <button class="icon-btn theme-toggle" aria-label="Cambiar tema" type="button" id="theme-toggle">
+          <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <nav class="header-nav" aria-label="Principal">
+      {links.map(l => (
+        <a href={l.href} class={current === l.key ? 'active' : ''}>{l.label}</a>
+      ))}
+    </nav>
+
+  </div>
+</header>

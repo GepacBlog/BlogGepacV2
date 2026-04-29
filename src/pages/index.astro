@@ -1,0 +1,70 @@
+---
+import Base from '../layouts/Base.astro';
+import FeaturedArticle from '../components/FeaturedArticle.astro';
+import ArticleRow from '../components/ArticleRow.astro';
+import { getCollection } from 'astro:content';
+import { articulosPublicados, CATEGORIAS } from '../lib/utils.js';
+
+const todos = await getCollection('articulos');
+const publicados = articulosPublicados(todos);
+
+// Destacado: el primer artículo con destacado=true, o el más reciente
+const destacado = publicados.find(a => a.data.destacado) ?? publicados[0];
+const resto = publicados.filter(a => a.slug !== destacado?.slug);
+
+const categorias = Object.entries(CATEGORIAS);
+const ultimos = resto.slice(0, 6);
+---
+<Base title="GEPAC · Información de salud para pacientes y familiares" current="home">
+
+  <section class="home-intro">
+    <div class="container home-intro-grid simple">
+      <div class="home-intro-copy">
+        <p class="home-kicker">Información de salud</p>
+        <h1 class="home-title">Información clara para pacientes con cáncer,<br />familiares y personas cuidadoras.</h1>
+        <p class="home-lede">
+          Actualidad, tratamientos, derechos y contenidos útiles explicados con criterio editorial y lenguaje comprensible.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  {destacado && <FeaturedArticle articulo={destacado} />}
+
+  <section class="container home-section">
+    <div class="home-section-head">
+      <div>
+        <p class="section-kicker">Últimas publicaciones</p>
+        <h2 class="h2">Artículos recientes</h2>
+      </div>
+      <a href="/archivo" class="section-link">Ir al archivo completo →</a>
+    </div>
+
+    {ultimos.length > 0 ? (
+      <div class="article-list">
+        {ultimos.map(a => <ArticleRow articulo={a} />)}
+      </div>
+    ) : (
+      <div class="empty-state">
+        <h3>Aún no hay artículos publicados</h3>
+        <p>Los próximos artículos aparecerán aquí.</p>
+      </div>
+    )}
+  </section>
+
+  <section class="container home-section">
+    <div class="home-section-head compact">
+      <div>
+        <p class="section-kicker">Explorar</p>
+        <h2 class="h2">Recorrer por áreas</h2>
+      </div>
+    </div>
+
+    <div class="filters home-category-grid" role="navigation" aria-label="Ir a categorías">
+      {categorias.slice(0, 6).map(([slug, info]) => (
+        <a href={`/categoria/${slug}`} class="filter-chip home-category-chip">{info.label}</a>
+      ))}
+    </div>
+  </section>
+
+</Base>

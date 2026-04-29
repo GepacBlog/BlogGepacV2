@@ -1,0 +1,147 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { articulosPublicados, CATEGORIAS } from '../lib/utils.js';
+
+const articulos = articulosPublicados(await getCollection('articulos'));
+const relatos = (await getCollection('relatos')).filter(r => r.data.estado === 'publicado');
+
+const ahora = new Date();
+const aniosSet = new Set(articulos.map(a => new Date(a.data.fecha).getFullYear()));
+const anios = Array.from(aniosSet).sort((a, b) => b - a);
+const anioActual = anios[0] ?? ahora.getFullYear();
+
+const delAnio = articulos.filter(a => new Date(a.data.fecha).getFullYear() === anioActual);
+
+// Por mes del año seleccionado
+const meses = ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+const porMes = meses.map((nombre, i) => {
+  const total = delAnio.filter(a => new Date(a.data.fecha).getMonth() === i).length;
+  return { nombre, total };
+});
+
+// Por categoría
+const porCategoria = Object.entries(CATEGORIAS).map(([slug, info]) => ({
+  slug,
+  label: info.label,
+  total: articulos.filter(a => a.data.categoria === slug).length
+})).sort((a, b) => b.total - a.total);
+
+const totalArticulos = articulos.length;
+const totalRelatos = relatos.length;
+const ultimaFecha = articulos[0]?.data.fecha;
+---
+<Base title="Métricas · GEPAC" current="metricas">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="page-eyebrow"><span class="num">·</span> Métricas</p>
+      <h1 class="page-title">Dashboard editorial</h1>
+      <p class="page-lede">
+        Resumen de la actividad del blog: publicaciones por mes, distribución por categoría, evolución del archivo. Datos generados automáticamente.
+      </p>
+    </div>
+  </section>
+
+  <div class="container">
+
+    <h2 class="h2" style="margin-top: var(--s-7);">Resumen del año {anioActual}</h2>
+
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <span class="metric-label">Total artículos</span>
+        <span class="metric-value">{totalArticulos}</span>
+        <span class="metric-sub">Histórico</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-label">Este año</span>
+        <span class="metric-value">{delAnio.length}</span>
+        <span class="metric-sub">{anioActual}</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-label">Relatos</span>
+        <span class="metric-value">{totalRelatos}</span>
+        <span class="metric-sub">Total</span>
+      </div>
+      <div class="metric-card">
+        <span class="metric-label">Última publicación</span>
+        <span class="metric-value" style="font-size: 1.1rem; padding-top: var(--s-2);">
+          {ultimaFecha ? new Date(ultimaFecha).toLocaleDateString('es-ES') : '—'}
+        </span>
+        <span class="metric-sub">Más reciente</span>
+      </div>
+    </div>
+
+    <h2 class="h2" style="margin-top: var(--s-8);">Publicaciones por mes ({anioActual})</h2>
+
+    <table class="metrics-table">
+      <thead>
+        <tr>
+          <th>Mes</th>
+          <th class="num" style="text-align: right;">Publicaciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        {porMes.map(m => (
+          <tr>
+            <td>{m.nombre}</td>
+            <td class="num" style="text-align: right;">{m.total}</td>
+          </tr>
+        ))}
+        <tr style="font-weight: 500; border-top: 2px solid var(--line-strong);">
+          <td>Total</td>
+          <td class="num" style="text-align: right;">{delAnio.length}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 class="h2" style="margin-top: var(--s-8);">Por categoría (histórico)</h2>
+
+    <table class="metrics-table">
+      <thead>
+        <tr>
+          <th>Categoría</th>
+          <th class="num" style="text-align: right;">Artículos</th>
+          <th class="num" style="text-align: right; width: 80px;">%</th>
+        </tr>
+      </thead>
+      <tbody>
+        {porCategoria.map(c => (
+          <tr>
+            <td>{c.label}</td>
+            <td class="num" style="text-align: right;">{c.total}</td>
+            <td class="num" style="text-align: right; color: var(--ink-mute);">
+              {totalArticulos > 0 ? Math.round((c.total / totalArticulos) * 100) : 0}%
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+
+    {anios.length > 1 && (
+      <>
+        <h2 class="h2" style="margin-top: var(--s-8);">Histórico por año</h2>
+        <table class="metrics-table">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th class="num" style="text-align: right;">Publicaciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            {anios.map(y => (
+              <tr>
+                <td>{y}</td>
+                <td class="num" style="text-align: right;">
+                  {articulos.filter(a => new Date(a.data.fecha).getFullYear() === y).length}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </>
+    )}
+
+  </div>
+
+</Base>

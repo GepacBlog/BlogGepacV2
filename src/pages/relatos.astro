@@ -1,0 +1,61 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { formatFechaCorta } from '../lib/utils.js';
+
+const todos = await getCollection('relatos');
+const publicados = todos
+  .filter(r => r.data.estado !== 'borrador' && r.data.estado !== 'archivado')
+  .sort((a, b) => new Date(b.data.fecha) - new Date(a.data.fecha));
+---
+<Base title="Relatos · GEPAC" current="relatos">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="page-eyebrow"><span class="num">·</span> Relatos</p>
+      <h1 class="page-title">Voces en primera persona</h1>
+      <p class="page-lede">
+        Vivencias de pacientes y familiares. Textos contados en primera persona, donde lo médico se cruza con lo cotidiano.
+      </p>
+    </div>
+  </section>
+
+  <div class="container">
+
+    {publicados.length > 0 ? (
+      <div class="article-list">
+        {publicados.map(r => (
+          <article class="article-row">
+            <div class="article-meta">
+              <time class="article-date" datetime={r.data.fecha.toISOString()}>{formatFechaCorta(r.data.fecha)}</time>
+              <span class="article-cat" style="--accent: var(--cat-testimonio);">Relato</span>
+            </div>
+            <div class="article-body">
+              <h2 class="article-title">
+                <a href={`/relato/${r.slug}`}>{r.data.titulo}</a>
+              </h2>
+              <p class="article-summary">{r.data.resumen}</p>
+              <p style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--ink-mute); margin-top: var(--s-2);">
+                Por {r.data.autor}{r.data.autor_nota && ` · ${r.data.autor_nota}`}
+              </p>
+            </div>
+            <a href={`/relato/${r.slug}`} class="article-image" aria-hidden="true" tabindex="-1">
+              {r.data.imagen?.url ? (
+                <img src={r.data.imagen.url} alt="" loading="lazy" />
+              ) : (
+                <span class="article-image-empty">Relato</span>
+              )}
+            </a>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <div class="empty-state">
+        <h3>Aún no hay relatos publicados</h3>
+        <p>Esta sección recogerá voces de pacientes y familiares.</p>
+      </div>
+    )}
+
+  </div>
+
+</Base>

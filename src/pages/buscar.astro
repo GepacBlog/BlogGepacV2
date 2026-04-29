@@ -1,0 +1,136 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { articulosPublicados, categoriaLabel, formatFechaCorta } from '../lib/utils.js';
+
+const todos = await getCollection('articulos');
+const publicados = articulosPublicados(todos);
+
+// Index ligero para búsqueda en cliente
+const indice = publicados.map(a => ({
+  slug: a.slug,
+  titulo: a.data.titulo,
+  resumen: a.data.resumen,
+  categoria: a.data.categoria,
+  categoriaLabel: categoriaLabel(a.data.categoria),
+  fecha: a.data.fecha,
+  fechaCorta: formatFechaCorta(a.data.fecha),
+  tags: a.data.tags ?? []
+}));
+---
+<Base title="Buscar · GEPAC" current="buscar">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="page-eyebrow"><span class="num">·</span> Buscar</p>
+      <h1 class="page-title">Buscar en el blog</h1>
+      <p class="page-lede">
+        Busca por título, resumen o etiquetas. La búsqueda es local: nada sale de tu navegador.
+      </p>
+    </div>
+  </section>
+
+  <div class="container">
+
+    <div class="search-box">
+      <div class="search-input-wrap">
+        <label class="sr-only" for="search">Término de búsqueda</label>
+        <input
+          id="search"
+          class="search-input"
+          type="search"
+          placeholder="Escribe para buscar…"
+          autocomplete="off"
+          autofocus
+        />
+      </div>
+      <p class="search-results-count" id="search-count">{indice.length} artículos disponibles</p>
+    </div>
+
+    <div class="article-list" id="search-results"></div>
+
+    <template id="row-template">
+      <article class="article-row">
+        <div class="article-meta">
+          <time class="article-date"></time>
+          <span class="article-cat"></span>
+        </div>
+        <div class="article-body">
+          <h2 class="article-title"><a></a></h2>
+          <p class="article-summary"></p>
+        </div>
+      </article>
+    </template>
+
+  </div>
+
+  <script define:vars={{ indice }}>
+    const $input  = document.getElementById('search');
+    const $list   = document.getElementById('search-results');
+    const $count  = document.getElementById('search-count');
+    const $tpl    = document.getElementById('row-template');
+
+    function normalizar(t) {
+      return t.toString().toLowerCase()
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+
+    function score(item, q) {
+      const text = normalizar(`${item.titulo} ${item.resumen} ${item.tags.join(' ')} ${item.categoriaLabel}`);
+      const terms = q.split(/\s+/).filter(Boolean);
+      let s = 0;
+      for (const t of terms) {
+        if (!text.includes(t)) return 0;
+        if (normalizar(item.titulo).includes(t)) s += 3;
+        if (normalizar(item.resumen).includes(t)) s += 1;
+      }
+      return s;
+    }
+
+    function render(items) {
+      $list.innerHTML = '';
+      if (items.length === 0) {
+        $list.innerHTML = '<div class="empty-state"><h3>Sin resultados</h3><p>Prueba con otra palabra clave.</p></div>';
+        return;
+      }
+      const frag = document.createDocumentFragment();
+      for (const it of items) {
+        const node = $tpl.content.cloneNode(true);
+        node.querySelector('.article-date').textContent = it.fechaCorta;
+        node.querySelector('.article-date').setAttribute('datetime', new Date(it.fecha).toISOString());
+        node.querySelector('.article-cat').textContent = it.categoriaLabel;
+        const a = node.querySelector('.article-title a');
+        a.textContent = it.titulo;
+        a.href = `/articulo/${it.slug}`;
+        node.querySelector('.article-summary').textContent = it.resumen;
+        frag.appendChild(node);
+      }
+      $list.appendChild(frag);
+    }
+
+    function buscar() {
+      const raw = ($input.value || '').trim();
+      if (!raw) {
+        $list.innerHTML = '';
+        $count.textContent = `${indice.length} artículos disponibles`;
+        return;
+      }
+      const q = normalizar(raw);
+      const resultados = indice
+        .map(item => ({ item, s: score(item, q) }))
+        .filter(r => r.s > 0)
+        .sort((a, b) => b.s - a.s)
+        .map(r => r.item);
+      $count.textContent = `${resultados.length} ${resultados.length === 1 ? 'resultado' : 'resultados'} para "${raw}"`;
+      render(resultados);
+    }
+
+    $input.addEventListener('input', buscar);
+
+    // Soporta ?q= en URL
+    const params = new URLSearchParams(location.search);
+    const q0 = params.get('q');
+    if (q0) { $input.value = q0; buscar(); }
+  </script>
+
+</Base>

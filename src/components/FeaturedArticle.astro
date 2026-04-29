@@ -1,0 +1,38 @@
+---
+import { categoriaLabel, formatFecha } from '../lib/utils.js';
+
+export interface Props {
+  articulo: any;
+}
+const { articulo } = Astro.props;
+const { data, slug } = articulo;
+const url = `/articulo/${slug}`;
+const imgUrl = data.imagen?.url ?? null;
+---
+<section class="featured">
+  <div class="container">
+    <div class="featured-grid">
+
+      <a href={url} class="featured-image" aria-hidden="true" tabindex="-1">
+        {imgUrl ? (
+          <img src={imgUrl} alt={data.imagen?.alt ?? ''} />
+        ) : (
+          <span class="article-image-empty" style="height: 100%; width: 100%; display: grid; place-items: center;">GEPAC</span>
+        )}
+      </a>
+
+      <div>
+        <div class="featured-meta">
+          <span class="featured-cat">{categoriaLabel(data.categoria)}</span>
+          <time datetime={data.fecha.toISOString()}>{formatFecha(data.fecha)}</time>
+        </div>
+        <h1 class="featured-title">
+          <a href={url}>{data.titulo}</a>
+        </h1>
+        <p class="featured-summary">{data.resumen}</p>
+        <a href={url} class="featured-cta">Leer artículo →</a>
+      </div>
+
+    </div>
+  </div>
+</section>

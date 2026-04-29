@@ -1,0 +1,86 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+export interface Props {
+  title: string;
+  description?: string;
+  current?: string;
+  ogImage?: string;
+}
+
+const {
+  title,
+  description = 'Blog GEPAC · Información de salud para pacientes y familiares',
+  current,
+  ogImage
+} = Astro.props;
+---
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  {ogImage && <meta property="og:image" content={ogImage} />}
+  <meta property="og:type" content="article" />
+  <meta name="theme-color" content="#FBFAF6" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#14151A" media="(prefers-color-scheme: dark)" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="alternate" type="application/rss+xml" title="GEPAC" href="/rss.xml" />
+
+  {/* Tema sin parpadeo: aplica antes de pintar */}
+  <script is:inline>
+    (function () {
+      try {
+        const saved = localStorage.getItem('gepac-theme');
+        if (saved === 'dark' || saved === 'light') {
+          document.documentElement.setAttribute('data-theme', saved);
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Ir al contenido</a>
+  <Header current={current} />
+  <main id="main" class="site-shell">
+    <div class="site-main">
+      <slot />
+    </div>
+  </main>
+  <Footer />
+
+  <script>
+    // Toggle de tema con persistencia
+    const btn = document.getElementById('theme-toggle');
+    const root = document.documentElement;
+    if (btn) {
+      btn.addEventListener('click', () => {
+        const current = root.getAttribute('data-theme');
+        let next;
+        if (current === 'dark') next = 'light';
+        else if (current === 'light') next = 'dark';
+        else {
+          // Sin override aún: invertir respecto al sistema
+          const prefersDark = matchMedia('(prefers-color-scheme: dark)').matches;
+          next = prefersDark ? 'light' : 'dark';
+        }
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('gepac-theme', next); } catch (e) {}
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+---
+import { categoriaLabel, formatFechaCorta } from '../lib/utils.js';
+
+export interface Props {
+  articulo: any;
+}
+const { articulo } = Astro.props;
+const { data, slug } = articulo;
+const url = `/articulo/${slug}`;
+const imgUrl = data.imagen?.url ?? null;
+---
+<article class="article-row">
+  <div class="article-meta">
+    <time class="article-date" datetime={data.fecha.toISOString()}>{formatFechaCorta(data.fecha)}</time>
+    <span class="article-cat">{categoriaLabel(data.categoria)}</span>
+  </div>
+
+  <div class="article-body">
+    <h2 class="article-title">
+      <a href={url}>{data.titulo}</a>
+    </h2>
+    <p class="article-summary">{data.resumen}</p>
+    <p class="article-read-more">
+      <a href={url}>Leer más…</a>
+    </p>
+    {data.tags && data.tags.length > 0 && (
+      <div class="article-tags">
+        {data.tags.slice(0, 4).map(t => <span class="tag">{t}</span>)}
+      </div>
+    )}
+  </div>
+
+  <a href={url} class="article-image" aria-hidden="true" tabindex="-1">
+    {imgUrl ? (
+      <img src={imgUrl} alt="" loading="lazy" />
+    ) : (
+      <span class="article-image-empty">GEPAC</span>
+    )}
+  </a>
+</article>
