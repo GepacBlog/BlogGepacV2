@@ -770,15 +770,6 @@ button { font: inherit; cursor: pointer; background: none; border: 0; color: inh
   .article-content { padding: 0; font-size: 1.22rem; }
 }
 .article-content > * + * { margin-top: var(--s-5); }
-.article-content > p:first-child::first-letter {
-  font-family: var(--font-display);
-  font-size: 3.6em;
-  font-weight: 400;
-  float: left;
-  line-height: 0.95;
-  margin: 6px 12px 0 -2px;
-  color: var(--accent);
-}
 .article-content h2 {
   font-family: var(--font-display);
   font-size: clamp(1.5rem, 2.5vw, 1.9rem);
