@@ -5,6 +5,7 @@ categoria: eventos
 tags: []
 resumen: "GEPAC impulsa un taller de maquillaje y cuidados de la piel para pacientes oncológicos, en colaboración con Pierre Fabre y SkinCancer, orientado al bienestar integral."
 autor: "Equipo GEPAC"
+layout_imagen: "contain"
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-02-02_gepac_taller-de-maquillaje-junto-a-pierre-fabre-y-skin-cancer_01.webp"
   alt: "Taller de Maquillaje junto a Pierre Fabre y Skin Cancer"
