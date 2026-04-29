@@ -12,7 +12,7 @@ destacado: false
 estado: publicado
 ---
 
-La administración subcutánea en oncología puede reducir hasta un 71 % el tiempo hospitalario y mejorar de forma significativa la eficiencia asistencial en los Hospitales de Día Oncológicos (HDO). El informe ONCOptimal 2.0 sitúa esta vía como una palanca estratégica para aliviar la presión operativa y mejorar la experiencia de pacientes y profesionales.
+El informe ONCOptimal 2.0 señala que la vía subcutánea puede reducir hasta un 71 % el tiempo de administración activa en oncología y convertirse en una palanca estratégica para aliviar la presión operativa en los Hospitales de Día Oncológicos y mejorar la experiencia de pacientes y profesionales.
 
 La creciente presión asistencial en los HDO exige soluciones innovadoras que permitan mejorar la eficiencia sin comprometer la calidad de la atención. En este contexto, la Fundación ECO ha presentado el informe ONCOptimal 2.0, que pone de relieve el impacto transformador de la administración subcutánea en el sistema sanitario.
 
