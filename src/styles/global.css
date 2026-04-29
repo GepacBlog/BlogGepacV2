@@ -748,6 +748,10 @@ button { font: inherit; cursor: pointer; background: none; border: 0; color: inh
   object-fit: cover;
   border: 1px solid var(--line);
 }
+.article-cover[data-fit="contain"] img {
+  object-fit: contain;
+  background: #fff;
+}
 .article-cover figcaption {
   margin-top: var(--s-3);
   font-family: var(--font-mono);

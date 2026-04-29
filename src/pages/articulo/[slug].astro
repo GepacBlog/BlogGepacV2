@@ -17,6 +17,7 @@ const { data } = articulo;
 
 const minutos = data.tiempo_lectura ?? tiempoLectura(articulo.body);
 const homeHref = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const imageFit = data.layout_imagen === 'contain' ? 'contain' : 'cover';
 ---
 <Base
   title={`${data.meta_titulo ?? data.titulo} · GEPAC`}
@@ -47,7 +48,7 @@ const homeHref = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_U
     </header>
 
     {data.imagen?.url && (
-      <div class="article-cover">
+      <div class="article-cover" data-fit={imageFit}>
         <figure>
           <img src={data.imagen.url} alt={data.imagen.alt} />
           {(data.imagen.caption || data.imagen.credito) && (
