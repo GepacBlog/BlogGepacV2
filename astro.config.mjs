@@ -1,7 +1,8 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://blog.gepac.es',
+  site: 'https://gepacblog.github.io',
+  base: '/BlogGepacV2',
   trailingSlash: 'never',
   build: { format: 'directory' }
 });
