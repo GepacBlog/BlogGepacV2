@@ -755,16 +755,19 @@ button { font: inherit; cursor: pointer; background: none; border: 0; color: inh
   border: 1px solid var(--line);
 }
 .article-cover[data-fit="contain"] {
-  background: none;
-  border: 0;
+  background: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
 }
 .article-cover[data-fit="contain"] figure {
-  background: none;
-  border: 0;
+  background: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
 }
 .article-cover[data-fit="contain"] img {
   object-fit: contain;
-  border: 0;
+  border: 0 !important;
+  box-shadow: none !important;
 }
 .article-cover figcaption {
   margin-top: var(--s-3);
