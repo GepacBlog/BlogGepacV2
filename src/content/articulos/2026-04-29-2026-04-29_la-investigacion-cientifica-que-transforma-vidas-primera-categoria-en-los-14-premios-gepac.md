@@ -12,8 +12,6 @@ destacado: true
 estado: publicado
 ---
 
-**La categoría de Investigación científica en los 14 Premios GEPAC pone el foco en avances que mejoran de forma tangible la vida de las personas con cáncer y reconoce proyectos que abren nuevas vías en oncología.**
-
 La investigación científica volvió a ocupar un lugar central en los 14 Premios GEPAC, subrayando el papel decisivo que desempeña en la mejora de la vida de las personas con cáncer. En esta edición, la categoría de Investigación científica en el ámbito oncológico puso en valor el trabajo de quienes impulsan avances que marcan una diferencia real en el abordaje de la enfermedad.
 
 Este galardón reconoce a la persona, proyecto, equipo, asociación, entidad o administración que haya desarrollado el avance o logro más destacado en investigación científica en beneficio de los pacientes con cáncer. Más allá del premio, supone también una forma de visibilizar cómo cada hallazgo amplía el conocimiento disponible y abre nuevas posibilidades de tratamiento y cuidado.

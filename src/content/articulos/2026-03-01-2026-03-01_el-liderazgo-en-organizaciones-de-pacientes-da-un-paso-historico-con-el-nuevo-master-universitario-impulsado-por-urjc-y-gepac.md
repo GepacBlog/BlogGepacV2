@@ -13,8 +13,6 @@ destacado: false
 estado: publicado
 ---
 
-**URJC y GEPAC lanzan un máster pionero en liderazgo y gestión de organizaciones de pacientes.**
-
 El papel de las organizaciones de pacientes en el sistema sanitario ha evolucionado de forma significativa en los últimos años. Hoy participan en espacios de decisión, investigación, evaluación de tecnologías sanitarias, acceso a tratamientos y elaboración de políticas públicas. Sin embargo, esta creciente responsabilidad no había ido acompañada, hasta ahora, de una formación universitaria específica orientada a profesionalizar su liderazgo y gestión.
 
 Con el objetivo de dar respuesta a esta necesidad, la Universidad Rey Juan Carlos, en colaboración con GEPAC, impulsa el Máster Universitario en Liderazgo y Gestión de Organizaciones de Pacientes, una formación pionera en España que comenzará el próximo 7 de abril.

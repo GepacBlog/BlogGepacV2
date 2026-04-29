@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-La AMAC destaca que el diseño hospitalario influye directamente en el bienestar y la recuperación de los pacientes cardiovasculares, más allá de su función técnica.
-
 La Asociación de Pacientes Anticoagulados y Cardiovasculares (AMAC) ha participado recientemente en una jornada académica celebrada en la Universidad CEU San Pablo, donde su presidente, Juan Manuel Ortiz, ofreció una ponencia centrada en el impacto del diseño hospitalario en la experiencia y el bienestar de los pacientes.
 
 Bajo el título “Humanización de la arquitectura hospitalaria”, la intervención abordó cómo el diseño de los espacios sanitarios puede influir directamente en la calidad de vida de las personas con enfermedades cardiovasculares y en tratamiento anticoagulante. Durante la sesión, Ortiz explicó a los estudiantes que el entorno hospitalario no debe entenderse únicamente como un espacio técnico, sino también como un elemento capaz de reducir el estrés, favorecer la recuperación y mejorar la experiencia del paciente y su entorno familiar.

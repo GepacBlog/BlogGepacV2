@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-**Kyowa Kirin refuerza su apuesta por la investigación, la medicina personalizada y la colaboración con asociaciones de pacientes para avanzar en enfermedades complejas con pocas alternativas terapéuticas.**
-
 Kyowa Kirin refuerza su compromiso con los pacientes a través de la investigación, la colaboración con asociaciones y el impulso de iniciativas destinadas a mejorar el diagnóstico y el tratamiento de enfermedades complejas con escasas alternativas terapéuticas eficaces.
 
 La compañía centra buena parte de su actividad en patologías con necesidades médicas no cubiertas, con una estrategia basada en la innovación científica, la visión centrada en el paciente y la búsqueda de soluciones que puedan generar un impacto real en la calidad de vida de las personas.

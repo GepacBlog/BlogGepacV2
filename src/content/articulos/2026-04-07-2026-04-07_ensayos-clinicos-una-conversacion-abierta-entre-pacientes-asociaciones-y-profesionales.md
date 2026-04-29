@@ -13,8 +13,6 @@ destacado: false
 estado: publicado
 ---
 
-**Un espacio de diálogo para acercar la investigación clínica a pacientes y ciudadanía desde la experiencia compartida.**
-
 El Hospital Universitario Ramón y Cajal acogió una mesa redonda sobre ensayos clínicos dirigida a pacientes y ciudadanía, con el objetivo de acercar la investigación clínica, resolver dudas y compartir experiencias reales desde un enfoque claro y centrado en las personas.
 
 La jornada reunió a pacientes, asociaciones y profesionales sanitarios, y abordó qué es un ensayo clínico, cómo se desarrolla un medicamento y qué garantías éticas y legales protegen a quienes participan, destacando el consentimiento informado como un proceso continuo de comunicación.

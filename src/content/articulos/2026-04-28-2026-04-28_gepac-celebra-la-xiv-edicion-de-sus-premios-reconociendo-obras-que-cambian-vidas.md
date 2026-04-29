@@ -12,8 +12,6 @@ destacado: true
 estado: publicado
 ---
 
-**GEPAC celebra la XIV edición de sus Premios poniendo en valor el compromiso, la innovación y la implicación de profesionales, entidades y proyectos que contribuyen a mejorar la calidad de vida de las personas con cáncer y sus familias.**
-
 El Grupo Español de Pacientes con Cáncer (GEPAC) celebró el pasado 23 de abril la XIV edición de sus Premios bajo el lema “Obras que cambian vidas”, una cita ya consolidada que reconoce el compromiso, la innovación y la implicación de quienes trabajan para mejorar la calidad de vida de las personas con cáncer y sus familias.
 
 El acto reunió a representantes institucionales, profesionales sanitarios, asociaciones de pacientes, entidades sociales y compañías comprometidas con el ámbito oncológico, en un espacio de encuentro centrado en visibilizar el impacto real de proyectos e iniciativas desarrolladas a lo largo del último año.

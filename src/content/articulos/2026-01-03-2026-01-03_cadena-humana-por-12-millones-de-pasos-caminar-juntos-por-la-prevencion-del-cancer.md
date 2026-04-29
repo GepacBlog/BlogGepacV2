@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-**La asociación Un Sí por la Vida impulsa una cadena humana en Alhaurín el Grande para fomentar hábitos saludables y la prevención del cáncer.**
-
 El próximo viernes 13 de febrero, la localidad de Alhaurín el Grande volverá a unirse en una acción solidaria y de concienciación impulsada por la asociación Un Sí por la Vida, bajo el lema “Por 12 millones de pasos”. La iniciativa, gratuita y abierta a toda la comunidad, comenzará a las 10:00 de la mañana desde el Centro de Salud Francisco Burgos.
 
 Esta actividad se organiza con motivo del Día Mundial contra el Cáncer y del Cáncer Infantil como una forma de sensibilizar sobre la importancia de los hábitos de vida saludables y de la prevención de enfermedades oncológicas.

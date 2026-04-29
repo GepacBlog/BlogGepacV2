@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-GEPAC reúne a pacientes e instituciones en el Congreso para reforzar el papel del movimiento asociativo en la atención al cáncer.
-
 Serie GEPAC – VIII Cumbre Española contra el Cáncer
 El Congreso de los Diputados acoge la VIII Cumbre Española contra el Cáncer
 El Grupo Español de Pacientes con Cáncer (GEPAC) celebró el pasado 23 de febrero de 2025, en la Sala Ernest Lluch del Congreso de los Diputados, la VIII Cumbre Española contra el Cáncer, un encuentro institucional organizado con motivo del Día Mundial contra el Cáncer.

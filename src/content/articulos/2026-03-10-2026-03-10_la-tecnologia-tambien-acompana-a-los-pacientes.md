@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-## El papel silencioso de la informática en las asociaciones de pacientes
-
 Cuando una persona recibe un diagnóstico de cáncer, una de las primeras reacciones suele ser buscar información. No se trata solo de entender un término médico o de conocer un tratamiento. Lo que se busca, en realidad, es orientación, contexto y, en muchos casos, una cierta sensación de amparo en medio de la incertidumbre. En ese momento, las asociaciones de pacientes desempeñan una función decisiva, son espacios de información, acompañamiento y apoyo que, con frecuencia, se convierten en una referencia estable para pacientes y familiares.
 
 Sin embargo, hay una dimensión de su trabajo que rara vez ocupa el primer plano. Detrás de muchas de las ayudas que prestan estas organizaciones existe una estructura tecnológica sin la cual buena parte de su actividad diaria sería mucho más lenta, más limitada y menos eficaz. La informática, entendida no como un mero soporte técnico sino como una herramienta estratégica, se ha convertido en una pieza esencial para que las asociaciones de pacientes puedan organizar sus recursos, ampliar su alcance y ofrecer una atención de mayor calidad.

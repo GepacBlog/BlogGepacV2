@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-**Los XIV Premios GEPAC reconocerán iniciativas que mejoran la vida de pacientes con cáncer el 23 de abril de 2026 en Madrid.**
-
 La colaboración entre pacientes, profesionales sanitarios, investigadores, instituciones y sociedad civil es un elemento clave para mejorar la vida de las personas con cáncer. Con este objetivo, el Grupo Español de Pacientes con Cáncer celebrará la XIV edición de los Premios GEPAC, una iniciativa que busca reconocer públicamente a quienes trabajan cada día para transformar la realidad del cáncer en nuestro país.
 
 Bajo el lema “Obras que cambian vidas”, esta nueva edición pone el foco en la importancia del esfuerzo colectivo y de las sinergias entre los diferentes agentes del sistema sanitario y social que contribuyen a mejorar la calidad de vida de los pacientes oncológicos.

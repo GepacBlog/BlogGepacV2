@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-GEPAC y Farmaindustria firman un convenio para impulsar la investigación, la innovación terapéutica y la participación de los pacientes con cáncer.
-
 GEPAC y Farmaindustria refuerzan su colaboración para impulsar la innovación y la participación de los pacientes con cáncer
 La colaboración entre las organizaciones de pacientes y la industria farmacéutica se ha consolidado en los últimos años como un elemento clave para avanzar hacia un sistema sanitario más participativo y centrado en el valor. En este contexto, el Grupo Español de Pacientes con Cáncer (GEPAC) y Farmaindustria han firmado un Convenio Marco de Colaboración orientado a reforzar la cooperación entre ambas entidades y a promover iniciativas conjuntas en el ámbito de la oncología.
 

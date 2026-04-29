@@ -12,8 +12,6 @@ destacado: false
 estado: publicado
 ---
 
-**CRIS Contra el Cáncer y la UCM entregan las becas de la Cátedra CRIS-UCM para impulsar la investigación oncológica entre estudiantes de Medicina.**
-
 La investigación biomédica es una de las claves para avanzar en la lucha contra el cáncer y mejorar los resultados para los pacientes. En este contexto, la Fundación CRIS Contra el Cáncer y la Universidad Complutense de Madrid han celebrado la entrega de la IV edición de las Becas de la Cátedra Extraordinaria CRIS-UCM, una iniciativa destinada a fomentar la vocación investigadora entre estudiantes de Medicina.
 
 El acto de entrega se celebró en la Facultad de Medicina de la Universidad Complutense de Madrid, con la participación de representantes académicos y científicos que destacaron la importancia de impulsar el talento joven en el ámbito de la investigación oncológica.
