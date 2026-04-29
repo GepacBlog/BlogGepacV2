@@ -1,5 +1,6 @@
 ---
 const { current } = Astro.props;
+const logoSrc = `${import.meta.env.BASE_URL}assets/gepac-logo.webp`;
 
 const links = [
   { href: '/',          label: 'Portada',  key: 'home' },
@@ -13,7 +14,7 @@ const links = [
 
     <div class="header-top">
       <a href="/" class="brand-block" aria-label="Inicio · Blog GEPAC">
-        <img class="brand-logo" src="/assets/gepac-logo.webp" alt="Logo GEPAC" />
+        <img class="brand-logo" src={logoSrc} alt="Logo GEPAC" />
         <span class="brand-text">
           <span class="brand-tag">Información de salud para pacientes y familiares</span>
         </span>
