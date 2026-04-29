@@ -1,6 +1,6 @@
 ---
 const { current } = Astro.props;
-const logoSrc = `${import.meta.env.BASE_URL}assets/gepac-logo.webp`;
+const logoSrc = `${import.meta.env.BASE_URL}assets/gepac-logo.webp`.replace('/BlogGepacV2assets/', '/BlogGepacV2/assets/');
 
 const links = [
   { href: '/',          label: 'Portada',  key: 'home' },
