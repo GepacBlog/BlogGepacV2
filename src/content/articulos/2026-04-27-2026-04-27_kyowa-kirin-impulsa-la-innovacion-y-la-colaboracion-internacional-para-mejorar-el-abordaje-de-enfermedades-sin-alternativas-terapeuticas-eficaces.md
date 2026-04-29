@@ -6,7 +6,7 @@ tags: []
 resumen: "Kyowa Kirin refuerza su apuesta por la investigación, la medicina personalizada y la colaboración con asociaciones de pacientes para avanzar en enfermedades complejas con pocas alternativas terapéuticas."
 autor: "Equipo GEPAC"
 imagen:
-  url: "https://gepacblog.github.io/blog-gepac/assets/uploads/2026-04-27_gepac_kyowa-kirin-impulsa-la-innovacion-y-la-colaboracion-internacional-para-mejorar-el-abordaje-de-enfermedades-sin-alternativas-terapeuticas-eficaces_02.png"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-04-27_gepac_kyowa-kirin-impulsa-la-innovacion-y-la-colaboracion-internacional-para-mejorar-el-abordaje-de-enfermedades-sin-alternativas-terapeuticas-eficaces_02.png"
   alt: "Kyowa Kirin impulsa la innovación y la colaboración internacional para mejorar el abordaje de enfermedades sin alternativas terapéuticas eficaces"
 destacado: false
 estado: publicado

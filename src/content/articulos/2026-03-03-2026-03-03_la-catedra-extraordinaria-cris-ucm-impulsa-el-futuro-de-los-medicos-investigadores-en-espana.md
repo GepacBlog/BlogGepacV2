@@ -6,7 +6,7 @@ tags: []
 resumen: "CRIS Contra el Cáncer y la UCM entregan las becas de la Cátedra CRIS-UCM para impulsar la investigación oncológica entre estudiantes de Medicina."
 autor: "Equipo GEPAC"
 imagen:
-  url: "https://gepacblog.github.io/blog-gepac/assets/uploads/2026-03-03_gepac_la-catedra-extraordinaria-cris-ucm-impulsa-el-futuro-de-los-medicos-investigadores-en-espana_01.webp"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-03-03_gepac_la-catedra-extraordinaria-cris-ucm-impulsa-el-futuro-de-los-medicos-investigadores-en-espana_01.webp"
   alt: "La Cátedra Extraordinaria CRIS-UCM impulsa el futuro de los médicos investigadores en España"
 destacado: false
 estado: publicado

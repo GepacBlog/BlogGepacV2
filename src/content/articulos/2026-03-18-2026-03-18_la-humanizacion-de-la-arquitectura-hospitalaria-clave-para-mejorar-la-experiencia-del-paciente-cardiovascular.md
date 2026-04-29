@@ -6,7 +6,7 @@ tags: []
 resumen: "La AMAC destaca que el diseño hospitalario influye directamente en el bienestar y la recuperación de los pacientes cardiovasculares, más allá de su función técnica."
 autor: "Equipo GEPAC"
 imagen:
-  url: "https://gepacblog.github.io/blog-gepac/assets/uploads/2026-03-18_gepac_la-humanizacion-de-la-arquitectura-hospitalaria-clave-para-mejorar-la-experiencia-del-paciente-cardiovascular_01.png"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-03-18_gepac_la-humanizacion-de-la-arquitectura-hospitalaria-clave-para-mejorar-la-experiencia-del-paciente-cardiovascular_01.png"
   alt: "La humanización de la arquitectura hospitalaria, clave para mejorar la experiencia del paciente cardiovascular"
 destacado: false
 estado: publicado

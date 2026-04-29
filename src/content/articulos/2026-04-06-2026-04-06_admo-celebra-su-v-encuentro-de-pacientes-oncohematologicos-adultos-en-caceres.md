@@ -6,7 +6,7 @@ tags: []
 resumen: "La Asociación para la Donación de Médula Ósea de Extremadura (ADMO) celebró su V Encuentro con Pacientes Oncohematológicos Adultos en Cáceres, una jornada centrada en el acompañamiento emocional, la reflexión compartida y el bienestar de pacientes y familias."
 autor: "Equipo GEPAC"
 imagen:
-  url: "https://gepacblog.github.io/blog-gepac/assets/uploads/2026-04-06_gepac_admo-celebra-su-v-encuentro-de-pacientes-oncohematologicos-adultos-en-caceres_01.jpeg"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-04-06_gepac_admo-celebra-su-v-encuentro-de-pacientes-oncohematologicos-adultos-en-caceres_01.jpeg"
   alt: "ADMO celebra su V Encuentro de Pacientes Oncohematológicos Adultos en Cáceres"
 destacado: false
 estado: publicado

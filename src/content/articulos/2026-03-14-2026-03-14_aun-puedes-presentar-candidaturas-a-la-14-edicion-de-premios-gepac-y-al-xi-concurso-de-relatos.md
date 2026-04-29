@@ -6,7 +6,7 @@ tags: []
 resumen: "GEPAC recuerda que siguen abiertos los plazos de participación en la 14ª Edición de Premios GEPAC y en el XI Concurso de Relatos. Como novedad, los finalistas entrarán en el sorteo de un viaje para dos personas a Riviera Maya."
 autor: "Equipo GEPAC"
 imagen:
-  url: "https://gepacblog.github.io/blog-gepac/assets/uploads/2026-03-14_gepac_premios-relatos_editor_01.png"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-03-14_gepac_premios-relatos_editor_01.png"
   alt: "Aún puedes presentar candidaturas a la 14ª Edición de Premios GEPAC y al XI Concurso de Relatos"
 destacado: false
 estado: publicado

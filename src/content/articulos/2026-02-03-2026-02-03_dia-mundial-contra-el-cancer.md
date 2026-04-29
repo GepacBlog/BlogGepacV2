@@ -6,7 +6,7 @@ tags: []
 resumen: "Con motivo del Día Mundial contra el Cáncer, GEPAC refuerza el mensaje de prevención, sensibilización y acompañamiento a pacientes y familias durante todo el año."
 autor: "Equipo GEPAC"
 imagen:
-  url: "https://gepacblog.github.io/blog-gepac/assets/uploads/2026-02-03_gepac_dia-mundial-contra-el-cancer_01.webp"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-02-03_gepac_dia-mundial-contra-el-cancer_01.webp"
   alt: "Día Mundial contra el Cáncer"
 destacado: false
 estado: publicado

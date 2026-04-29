@@ -6,7 +6,7 @@ tags: []
 resumen: "El informe ONCOptimal 2.0 señala que la administración subcutánea en oncología puede reducir hasta un 71 % el tiempo de administración activa frente a la vía intravenosa. Esta mejora permite optimizar recursos hospitalarios, aliviar demoras en Hospitales de Día y mejorar la experiencia del paciente."
 autor: "Equipo Gepac"
 imagen:
-  url: "https://gepacblog.github.io/blog-gepac/assets/uploads/2026-03-18_gepac_la-administracion-subcutanea-en-oncologia-reduce-hasta-un-71-el-tiempo-hospitalario-y-mejora-la-eficiencia-asistencial_01.jpg"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-03-18_gepac_la-administracion-subcutanea-en-oncologia-reduce-hasta-un-71-el-tiempo-hospitalario-y-mejora-la-eficiencia-asistencial_01.jpg"
   alt: "La administración subcutánea en oncología reduce hasta un 71 % el tiempo hospitalario y mejora la eficiencia asistencial"
 destacado: false
 estado: publicado
@@ -38,4 +38,4 @@ El informe subraya la necesidad de estandarizar protocolos multidisciplinares y 
 
 **Más información:** [Fundación ECO · ONCOptimal 2.0](https://www.fundacioneco.es/oncoptimal-2-0/)
 
-![](https://gepacblog.github.io/blog-gepac/assets/uploads/2026-03-18_gepac_la-administracion-subcutanea-en-oncologia-reduce-hasta-un-71-el-tiempo-hospitalario-y-mejora-la-eficiencia-asistencial_02.jpg)
+![](/BlogGepacV2/assets/uploads/2026-03-18_gepac_la-administracion-subcutanea-en-oncologia-reduce-hasta-un-71-el-tiempo-hospitalario-y-mejora-la-eficiencia-asistencial_02.jpg)

@@ -6,7 +6,7 @@ tags: []
 resumen: "Un estudio del GECP ha identificado una huella inmunitaria en sangre que permite anticipar la respuesta a la quimio-inmunoterapia en cáncer de pulmón. El análisis, basado en pacientes de los ensayos NADIM y NADIM II, abre la puerta a biomarcadores que ayuden a personalizar tratamientos y mejorar resultados clínicos."
 autor: "Equipo GEPAC"
 imagen:
-  url: "https://gepacblog.github.io/blog-gepac/assets/uploads/2026-03-18_gepac_una-huella-inmunitaria-en-sangre-podria-predecir-la-respuesta-al-tratamiento-en-cancer-de-pulmon_01.png"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-03-18_gepac_una-huella-inmunitaria-en-sangre-podria-predecir-la-respuesta-al-tratamiento-en-cancer-de-pulmon_01.png"
   alt: "Una huella inmunitaria en sangre podría predecir la respuesta al tratamiento en cáncer de pulmón"
 destacado: false
 estado: publicado

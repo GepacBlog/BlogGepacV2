@@ -6,7 +6,7 @@ tags: []
 resumen: "GEPAC y Farmaindustria firman un convenio para impulsar la investigación, la innovación terapéutica y la participación de los pacientes con cáncer."
 autor: "Equipo GEPAC"
 imagen:
-  url: "https://gepacblog.github.io/blog-gepac/assets/uploads/2026-01-02_gepac_serie-gepac-firma-del-convenio-con-farmaindustria_01.webp"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-01-02_gepac_serie-gepac-firma-del-convenio-con-farmaindustria_01.webp"
   alt: "Serie GEPAC · Firma del convenio con Farmaindustria"
 destacado: false
 estado: publicado
@@ -33,4 +33,4 @@ El Convenio Marco tendrá una vigencia inicial de un año, con posibilidad de pr
 
 Contenido elaborado por GEPAC · Firma del convenio con Farmaindustria Grupo Español de Pacientes con Cáncer (GEPAC)
 
-![](https://gepacblog.github.io/blog-gepac/assets/uploads/2026-01-02_gepac_serie-gepac-firma-del-convenio-con-farmaindustria_02.webp)
+![](/BlogGepacV2/assets/uploads/2026-01-02_gepac_serie-gepac-firma-del-convenio-con-farmaindustria_02.webp)

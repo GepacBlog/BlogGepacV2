@@ -6,7 +6,7 @@ tags: []
 resumen: "GEPAC participa en los Desayunos LevinTalks junto a la ministra de Sanidad para abordar los principales retos del sistema sanitario y reforzar la voz de los pacientes."
 autor: "Equipo GEPAC"
 imagen:
-  url: "https://gepacblog.github.io/blog-gepac/assets/uploads/2026-02-04_gepac_desayuno-levintalks_01.webp"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-02-04_gepac_desayuno-levintalks_01.webp"
   alt: "Desayuno LevinTalks"
 destacado: false
 estado: publicado
@@ -27,4 +27,4 @@ La participación de asociaciones de pacientes en foros de este nivel resulta fu
 El encuentro reunió a numerosas entidades del ámbito sanitario, científico y empresarial, cuya diversidad de perspectivas enriqueció el debate y favoreció un intercambio constructivo sobre el presente y el futuro de la sanidad.
 Desde GEPAC se valora muy positivamente la celebración de iniciativas como los Desayunos LevinTalks, que impulsan el consenso y la colaboración entre los distintos actores del sistema. Continuar promoviendo estos espacios será clave para responder de forma eficaz a las necesidades reales de los pacientes y fortalecer una atención sanitaria de mayor calidad.
 
-![](https://gepacblog.github.io/blog-gepac/assets/uploads/2026-02-04_gepac_desayuno-levintalks_02.webp)
+![](/BlogGepacV2/assets/uploads/2026-02-04_gepac_desayuno-levintalks_02.webp)

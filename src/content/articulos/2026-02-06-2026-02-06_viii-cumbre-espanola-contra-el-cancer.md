@@ -6,7 +6,7 @@ tags: []
 resumen: "GEPAC reúne a pacientes e instituciones en el Congreso para reforzar el papel del movimiento asociativo en la atención al cáncer."
 autor: "Equipo GEPAC"
 imagen:
-  url: "https://gepacblog.github.io/blog-gepac/assets/uploads/2026-02-06_gepac_viii-cumbre-espanola-contra-el-cancer_01.webp"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-02-06_gepac_viii-cumbre-espanola-contra-el-cancer_01.webp"
   alt: "VIII Cumbre Española contra el Cáncer"
 destacado: false
 estado: publicado
@@ -32,4 +32,4 @@ El acuerdo sienta las bases para una colaboración estable y sostenida entre el 
 Clausura institucional y compromiso con la participación del paciente
 Durante su intervención, subrayó la relevancia de integrar de forma estructural la voz de los pacientes en las instituciones y en el diseño de las políticas públicas, reforzando así un modelo de atención participativo y centrado en las personas
 
-![](https://gepacblog.github.io/blog-gepac/assets/uploads/2026-02-06_gepac_viii-cumbre-espanola-contra-el-cancer_02.webp)
+![](/BlogGepacV2/assets/uploads/2026-02-06_gepac_viii-cumbre-espanola-contra-el-cancer_02.webp)

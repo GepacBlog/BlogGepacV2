@@ -6,7 +6,7 @@ tags: []
 resumen: "GEPAC celebra la XIV edición de sus Premios poniendo en valor el compromiso, la innovación y la implicación de profesionales, entidades y proyectos que contribuyen a mejorar la calidad de vida de las personas con cáncer y sus familias."
 autor: "Equipo GEPAC"
 imagen:
-  url: "https://gepacblog.github.io/blog-gepac/assets/uploads/2026-04-28_gepac_gepac-celebra-la-xiv-edicion-de-sus-premios-reconociendo-obras-que-cambian-vidas_01.jpeg"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-04-28_gepac_gepac-celebra-la-xiv-edicion-de-sus-premios-reconociendo-obras-que-cambian-vidas_01.jpeg"
   alt: "GEPAC celebra la XIV edición de sus Premios reconociendo “obras que cambian vidas”"
 destacado: true
 estado: publicado

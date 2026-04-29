@@ -6,7 +6,7 @@ tags: []
 resumen: "Los XIV Premios GEPAC reconocerán iniciativas que mejoran la vida de pacientes con cáncer el 23 de abril de 2026 en Madrid."
 autor: "Equipo GEPAC"
 imagen:
-  url: "https://gepacblog.github.io/blog-gepac/assets/uploads/2026-03-02_gepac_los-xiv-premios-gepac-reconoceran-las-obras-que-cambian-vidas-en-oncologia_01.webp"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-03-02_gepac_los-xiv-premios-gepac-reconoceran-las-obras-que-cambian-vidas-en-oncologia_01.webp"
   alt: "Los XIV Premios GEPAC reconocerán las “Obras que cambian vidas” en oncología"
 destacado: false
 estado: publicado

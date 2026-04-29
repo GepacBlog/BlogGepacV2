@@ -6,7 +6,7 @@ tags: []
 resumen: "La asociación Un Sí por la Vida impulsa una cadena humana en Alhaurín el Grande para fomentar hábitos saludables y la prevención del cáncer."
 autor: "Equipo GEPAC"
 imagen:
-  url: "https://gepacblog.github.io/blog-gepac/assets/uploads/2026-01-03_gepac_cadena-humana-por-12-millones-de-pasos-caminar-juntos-por-la-prevencion-del-cancer_01.webp"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-01-03_gepac_cadena-humana-por-12-millones-de-pasos-caminar-juntos-por-la-prevencion-del-cancer_01.webp"
   alt: "Cadena Humana “Por 12 Millones de Pasos”: caminar juntos por la prevención del cáncer"
 destacado: false
 estado: publicado

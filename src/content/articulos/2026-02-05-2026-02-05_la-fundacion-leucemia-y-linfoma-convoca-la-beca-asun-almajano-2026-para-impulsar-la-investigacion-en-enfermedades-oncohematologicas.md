@@ -6,7 +6,7 @@ tags: []
 resumen: "La Fundación Leucemia y Linfoma abre la convocatoria de la Beca Asun Almajano 2026 para impulsar la investigación en enfermedades oncohematológicas y apoyar proyectos con impacto clínico."
 autor: "Equipo GEPAC"
 imagen:
-  url: "https://gepacblog.github.io/blog-gepac/assets/uploads/2026-02-05_gepac_la-fundacion-leucemia-y-linfoma-convoca-la-beca-asun-almajano-2026-para-impulsar-la-investigacion-en-enfermedades-oncohematologicas_01.webp"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-02-05_gepac_la-fundacion-leucemia-y-linfoma-convoca-la-beca-asun-almajano-2026-para-impulsar-la-investigacion-en-enfermedades-oncohematologicas_01.webp"
   alt: "La Fundación Leucemia y Linfoma convoca la Beca “Asun Almajano” 2026 para impulsar la investigación en enfermedades oncohematológicas"
 destacado: false
 estado: publicado

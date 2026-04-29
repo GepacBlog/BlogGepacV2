@@ -6,7 +6,7 @@ tags: []
 resumen: "La tecnología se ha convertido en una herramienta esencial para que las asociaciones de pacientes organicen recursos, difundan información fiable y refuercen el acompañamiento."
 autor: "Equipo GEPAC"
 imagen:
-  url: "https://gepacblog.github.io/blog-gepac/assets/uploads/2026-03-10_gepac_la-tecnologia-tambien-acompana-a-los-pacientes_01.webp"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-03-10_gepac_la-tecnologia-tambien-acompana-a-los-pacientes_01.webp"
   alt: "La tecnología también acompaña a los pacientes"
 destacado: false
 estado: publicado
@@ -50,4 +50,4 @@ Por eso conviene abandonar una idea simplificada de la informática como una fun
 
 En última instancia, la tecnología no sustituye el trato humano que define a las asociaciones de pacientes. No reemplaza la escucha, la empatía ni el compromiso de quienes trabajan en ellas. Pero sí les permite llegar más lejos, atender mejor y responder con mayor agilidad a una realidad compleja. En ese sentido, la informática se ha convertido en un aliado discreto pero decisivo. Un aliado que, sin ocupar el centro del relato, contribuye cada día a que muchas personas encuentren información, apoyo y acompañamiento cuando más lo necesitan.
 
-![](https://gepacblog.github.io/blog-gepac/assets/uploads/2026-03-10_gepac_la-tecnologia-tambien-acompana-a-los-pacientes_02.webp)
+![](/BlogGepacV2/assets/uploads/2026-03-10_gepac_la-tecnologia-tambien-acompana-a-los-pacientes_02.webp)
