@@ -122,11 +122,24 @@ button { font: inherit; cursor: pointer; background: none; border: 0; color: inh
 }
 @media (min-width: 1220px) {
   .site-shell {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: var(--s-7);
+    align-items: start;
     padding: 0 var(--s-6);
   }
 }
 .site-main {
   min-width: 0;
+}
+.site-sidebar {
+  display: none;
+}
+@media (min-width: 1220px) {
+  .site-sidebar {
+    display: block;
+    min-height: 100%;
+  }
 }
 .container {
   width: 100%;
