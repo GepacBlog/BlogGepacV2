@@ -5,6 +5,7 @@ categoria: asociacion
 tags: []
 resumen: "URJC y GEPAC lanzan un máster pionero en liderazgo y gestión de organizaciones de pacientes."
 autor: "Equipo GEPAC"
+layout_imagen: "contain"
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-03-01_gepac_el-liderazgo-en-organizaciones-de-pacientes-da-un-paso-historico-con-el-nuevo-master-universitario-impulsado-por-urjc-y-gepac_01.png"
   alt: "El liderazgo en organizaciones de pacientes da un paso histórico con el nuevo Máster Universitario impulsado por URJC y GEPAC"

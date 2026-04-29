@@ -43,6 +43,7 @@ const articulos = defineCollection({
         caption: z.string().optional(),
         credito: z.string().optional()
       }).optional(),
+      layout_imagen: z.enum(['cover', 'contain']).optional(),
 
       // ── Autoría ────────────────────────────────────────────────
       autor: z.string().default('Redacción GEPAC'),

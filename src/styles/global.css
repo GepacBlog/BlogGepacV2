@@ -406,6 +406,10 @@ button { font: inherit; cursor: pointer; background: none; border: 0; color: inh
   object-fit: cover;
   transition: transform .4s ease;
 }
+.article-image[data-fit="contain"] img {
+  object-fit: contain;
+  background: #fff;
+}
 .article-row:hover .article-image img { transform: scale(1.03); }
 .article-image-empty {
   background: var(--bg-tint);
@@ -530,6 +534,10 @@ button { font: inherit; cursor: pointer; background: none; border: 0; color: inh
   overflow: hidden;
 }
 .featured-image img { width: 100%; height: 100%; object-fit: cover; }
+.featured-image[data-fit="contain"] img {
+  object-fit: contain;
+  background: #fff;
+}
 .featured-meta {
   display: flex; gap: var(--s-4);
   flex-wrap: wrap;
