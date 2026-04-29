@@ -32,3 +32,5 @@ Durante la firma del convenio, las presidentas de ambas entidades subrayaron la 
 El Convenio Marco tendrá una vigencia inicial de un año, con posibilidad de prórroga, e incorpora mecanismos de seguimiento que garantizan un desarrollo alineado con los objetivos comunes. Con este acuerdo, GEPAC y Farmaindustria refuerzan su apuesta por una oncología más innovadora, colaborativa y centrada en las necesidades reales de los pacientes.
 
 Contenido elaborado por GEPAC · Firma del convenio con Farmaindustria Grupo Español de Pacientes con Cáncer (GEPAC)
+
+![](https://gepacblog.github.io/blog-gepac/assets/uploads/2026-01-02_gepac_serie-gepac-firma-del-convenio-con-farmaindustria_02.webp)

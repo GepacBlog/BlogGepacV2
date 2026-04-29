@@ -34,3 +34,5 @@ La sesión dejó además una idea transversal: avanzar en medicina de precisión
 
 **Lee la noticia entera aquí:**
 [Nota de prensa FarmaIndustria](https://www.farmaindustria.es/web/prensa/notas-de-prensa/2026/03/06/la-oncologia-de-precision-una-oportunidad-para-mejorar-resultados-reducir-inequidades-y-reforzar-la-competitividad-europea/)
+
+![](https://gepacblog.github.io/blog-gepac/assets/uploads/2026-03-11_gepac_la-oncologia-de-precision-clave-para-mejorar-resultados-y-reducir-inequidades_02.webp)

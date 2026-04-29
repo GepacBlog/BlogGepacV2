@@ -31,3 +31,5 @@ El acuerdo sienta las bases para una colaboración estable y sostenida entre el 
 
 Clausura institucional y compromiso con la participación del paciente
 Durante su intervención, subrayó la relevancia de integrar de forma estructural la voz de los pacientes en las instituciones y en el diseño de las políticas públicas, reforzando así un modelo de atención participativo y centrado en las personas
+
+![](https://gepacblog.github.io/blog-gepac/assets/uploads/2026-02-06_gepac_viii-cumbre-espanola-contra-el-cancer_02.webp)

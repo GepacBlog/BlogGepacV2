@@ -37,3 +37,5 @@ La mayor agilidad en la administración abre también la puerta a nuevos modelos
 El informe subraya la necesidad de estandarizar protocolos multidisciplinares y reforzar la formación continua de los profesionales como ejes fundamentales para consolidar este avance y asegurar una transición eficaz hacia terapias que optimicen la gestión hospitalaria y garanticen una atención de mayor calidad y sostenibilidad.
 
 **Más información:** [Fundación ECO · ONCOptimal 2.0](https://www.fundacioneco.es/oncoptimal-2-0/)
+
+![](https://gepacblog.github.io/blog-gepac/assets/uploads/2026-03-18_gepac_la-administracion-subcutanea-en-oncologia-reduce-hasta-un-71-el-tiempo-hospitalario-y-mejora-la-eficiencia-asistencial_02.jpg)
