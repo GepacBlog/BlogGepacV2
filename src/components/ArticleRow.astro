@@ -25,11 +25,6 @@ const imageFit = data.layout_imagen === 'contain' ? 'contain' : 'cover';
     <p class="article-read-more">
       <a href={url}>Leer más…</a>
     </p>
-    {data.tags && data.tags.length > 0 && (
-      <div class="article-tags">
-        {data.tags.slice(0, 4).map(t => <span class="tag">{t}</span>)}
-      </div>
-    )}
   </div>
 
   <a href={url} class="article-image" aria-hidden="true" tabindex="-1" data-fit={imageFit}>
