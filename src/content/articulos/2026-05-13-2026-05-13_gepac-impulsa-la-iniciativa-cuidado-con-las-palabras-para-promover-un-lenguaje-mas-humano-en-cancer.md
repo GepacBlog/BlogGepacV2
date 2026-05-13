@@ -20,7 +20,7 @@ meta_titulo: "GEPAC impulsa Cuidado con las Palabras sobre cáncer"
 meta_descripcion: "GEPAC y BeOne Medicines promueven un uso más humano y empático del lenguaje en cáncer con la iniciativa Cuidado con las Palabras."
 ---
 
-GEPAC y BeOne Medicines han puesto en marcha “Cuidado con las Palabras”, una iniciativa de concienciación social que invita a reflexionar sobre cómo hablamos del cáncer y sobre el impacto emocional que determinadas expresiones pueden tener en las personas con cáncer y en su entorno.
+GEPAC y [BeOne Medicines](https://www.beonemedicines.com/) han puesto en marcha “Cuidado con las Palabras”, una iniciativa de concienciación social que invita a reflexionar sobre cómo hablamos del cáncer y sobre el impacto emocional que determinadas expresiones pueden tener en las personas con cáncer y en su entorno.
 
 ## Un lenguaje más empático y respetuoso
 
