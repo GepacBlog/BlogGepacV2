@@ -11,7 +11,7 @@ fuente:
   url: "https://www.gepac.es/"
   fecha_original: 2026-05-13
 imagen:
-  url: "https://blog.gepac.es/assets/uploads/2026-05-13_gepac_cuidado-con-las-palabras_02.png"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-05-13_gepac_cuidado-con-las-palabras_02.png"
   alt: "Imagen de la iniciativa Cuidado con las Palabras promovida por GEPAC y BeOne Medicines"
   credito: "GEPAC"
 destacado: true
