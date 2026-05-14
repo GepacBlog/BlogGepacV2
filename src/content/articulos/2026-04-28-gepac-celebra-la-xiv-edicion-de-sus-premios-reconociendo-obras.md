@@ -92,29 +92,6 @@ KEYWORDS:
 
 Premios GEPAC 2026, asociaciones pacientes cáncer España, investigación oncológica reconocimiento, sensibilización cáncer iniciativas España, voluntariado cáncer GEPAC, premios cáncer España gala GEPAC
 
-Sergio Cobas
-
-Responsable de comunicación
-
- (http://www.gepac.es/)
-
-Grupo Español de Pacientes con Cáncer
-
-Avenida de Córdoba, 15 – 2º B, Madrid
-
-Tel. 915 631 801 Mov. 647 852 322
-
-www.gepac.es (http://www.gepac.es/) –
-comunicacion@gepac.es (mailto:comunicacion@gepac.es)
-
-La información contenida en este mensaje y, en su caso, en los archivos adjuntos, es confidencial y está dirigida exclusivamente a su destinatario. Si usted no es
- el destinatario, le informamos de que cualquier uso, divulgación, distribución o reproducción de este mensaje está prohibido y puede ser ilegal. En tal caso, le rogamos que nos lo comunique de inmediato y proceda a su eliminación.
-
-De conformidad con la normativa vigente en materia de protección de datos, le informamos de que sus datos personales están siendo tratados por el Grupo Español de
- Pacientes con Cáncer (GEPAC), con la finalidad de gestionar la relación mantenida. Puede ejercer sus derechos de acceso, rectificación, supresión, limitación del tratamiento, portabilidad y oposición, mediante solicitud dirigida a Avenida de Córdoba, 15, 28026
- Madrid, o al correo electrónico: 
-protecciondedatos@gepac.es (mailto:protecciondedatos@gepac.es).
-
 ## Enlaces oficiales
 
 - [www.gepac.es](http://www.gepac.es/)
