@@ -3,7 +3,7 @@ titulo: "El Senado debatirá una moción para agilizar el acceso a tratamientos 
 fecha: 2026-05-14
 categoria: derechos-paciente
 tags: [senado, oncohematologia, tratamientos, acceso, equidad, innovacion]
-resumen: "La Comisión de Sanidad del Senado debatirá una moción para mejorar el acceso a terapias innovadoras en enfermedades oncohematológicas, reducir demoras y reforzar una atención más equitativa e integral para los pacientes."
+resumen: "El Senado debatirá una moción para acelerar el acceso a terapias innovadoras en enfermedades oncohematológicas, reducir desigualdades territoriales y reforzar una atención integral para los pacientes."
 autor: "Redacción GEPAC"
 fuente:
   nombre: "www.gepac.es"
@@ -20,6 +20,9 @@ trazabilidad:
   confidence: 0.9
   decision: "publish"
 ---
+## Resumen
+
+El Senado debatirá una moción orientada a acelerar la incorporación de tratamientos innovadores en enfermedades oncohematológicas, reducir demoras y evitar desigualdades territoriales en el acceso. La propuesta también pone el foco en una atención más integral, con apoyo clínico, psicológico y social para los pacientes.
 
 La Comisión de Sanidad del Senado debatirá el próximo 25 de mayo una moción centrada en mejorar el acceso ágil a fármacos innovadores, reforzar el seguimiento clínico y avanzar hacia un abordaje integral de las personas con enfermedades oncohematológicas.
 
