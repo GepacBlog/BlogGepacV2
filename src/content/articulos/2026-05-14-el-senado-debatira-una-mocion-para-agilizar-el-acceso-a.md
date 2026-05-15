@@ -20,10 +20,6 @@ trazabilidad:
   confidence: 0.9
   decision: "publish"
 ---
-## Resumen
-
-El Senado debatirá una moción orientada a acelerar la incorporación de tratamientos innovadores en enfermedades oncohematológicas, reducir demoras y evitar desigualdades territoriales en el acceso. La propuesta también pone el foco en una atención más integral, con apoyo clínico, psicológico y social para los pacientes.
-
 La Comisión de Sanidad del Senado debatirá el próximo 25 de mayo una moción centrada en mejorar el acceso ágil a fármacos innovadores, reforzar el seguimiento clínico y avanzar hacia un abordaje integral de las personas con enfermedades oncohematológicas.
 
 La iniciativa, presentada por el Grupo Parlamentario Popular, vuelve a poner sobre la mesa un problema que afecta de forma directa a muchos pacientes, las demoras en el acceso a terapias de alto valor clínico y las desigualdades territoriales que pueden condicionar las opciones de tratamiento según el lugar de residencia.
