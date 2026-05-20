@@ -12,7 +12,7 @@ fuente:
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/editorial-mail/2026-05-15_gepac_cancer-de-mama-triple-negativo-rompiendo-mitos-y-descubriendo-nuevos_01.png"
   alt: "Imagen informativa sobre cáncer de mama triple negativo"
-destacado: true
+destacado: false
 estado: publicado
 trazabilidad:
   origen: "email-automation-phase2"

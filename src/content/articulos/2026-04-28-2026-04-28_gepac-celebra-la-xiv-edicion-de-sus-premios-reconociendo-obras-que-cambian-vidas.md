@@ -8,7 +8,7 @@ autor: "Equipo GEPAC"
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-04-28_gepac_gepac-celebra-la-xiv-edicion-de-sus-premios-reconociendo-obras-que-cambian-vidas_01.jpeg"
   alt: "GEPAC celebra la XIV edición de sus Premios reconociendo “obras que cambian vidas”"
-destacado: true
+destacado: false
 estado: publicado
 ---
 

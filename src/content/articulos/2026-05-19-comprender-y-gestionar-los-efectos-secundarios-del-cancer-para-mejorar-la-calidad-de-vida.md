@@ -12,7 +12,7 @@ fuente:
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/editorial-mail/2026-05-19_gepac_comprender-y-gestionar-los-efectos-secundarios-del-cancer-para-mejorar-la-calidad-de-vida_01.png"
   alt: "Comprender y gestionar los efectos secundarios del cáncer para mejorar la calidad de vida"
-destacado: true
+destacado: false
 estado: publicado
 trazabilidad:
   origen: "editorial-email-automation-v2"

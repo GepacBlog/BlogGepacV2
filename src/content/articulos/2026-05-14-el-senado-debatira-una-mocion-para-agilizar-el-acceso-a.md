@@ -12,7 +12,7 @@ fuente:
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/editorial-mail/2026-05-14_gepac_el-senado-debatira-una-mocion-para-agilizar-el-acceso-a_02.png"
   alt: "Imagen del Senado relacionada con el debate sobre acceso a tratamientos innovadores en enfermedades oncohematológicas"
-destacado: true
+destacado: false
 estado: publicado
 trazabilidad:
   origen: "email-automation-phase2"

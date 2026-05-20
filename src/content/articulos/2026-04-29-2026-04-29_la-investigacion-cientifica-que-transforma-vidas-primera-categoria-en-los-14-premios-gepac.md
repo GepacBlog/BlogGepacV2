@@ -8,7 +8,7 @@ autor: "Equipo GEPAC"
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-04-29_gepac_investigacion-cientifica-premios-gepac_01.JPG"
   alt: "La investigación científica que transforma vidas, primera categoría en los 14 Premios GEPAC"
-destacado: true
+destacado: false
 estado: publicado
 ---
 

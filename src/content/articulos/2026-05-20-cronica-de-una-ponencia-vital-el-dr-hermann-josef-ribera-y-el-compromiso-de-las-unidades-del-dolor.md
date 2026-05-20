@@ -13,7 +13,7 @@ fuente:
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-05-20_gepac_cronica-de-una-ponencia-vital-unidades-del-dolor_01.png"
   alt: "Ilustración de una médica acompañando a un paciente con dolor durante una consulta oncológica"
-destacado: true
+destacado: false
 estado: publicado
 meta_titulo: "Dr. Ribera y las Unidades del Dolor en GEPAC"
 meta_descripcion: "Resumen de la ponencia del Dr. Hermann Josef Ribera en GEPAC sobre dolor oncológico, empatía clínica y atención especializada."

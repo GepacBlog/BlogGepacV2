@@ -12,7 +12,7 @@ fuente:
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/editorial-mail/2026-05-18_gepac_entendiendo-el-linfoma-t-periferico-una-guia-clara-sobre-su-diagnostico-y-los-nuevos_01.png"
   alt: "Entendiendo el Linfoma T Periférico: una guía clara sobre su diagnóstico y los nuevos tratamientos"
-destacado: true
+destacado: false
 estado: publicado
 trazabilidad:
   origen: "editorial-email-automation-v2"

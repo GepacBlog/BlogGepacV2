@@ -14,7 +14,7 @@ imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-05-13_gepac_cuidado-con-las-palabras_02.png"
   alt: "Imagen de la iniciativa Cuidado con las Palabras promovida por GEPAC y BeOne Medicines"
   credito: "GEPAC"
-destacado: true
+destacado: false
 estado: publicado
 meta_titulo: "GEPAC impulsa Cuidado con las Palabras sobre cáncer"
 meta_descripcion: "GEPAC y BeOne Medicines promueven un uso más humano y empático del lenguaje en cáncer con la iniciativa Cuidado con las Palabras."

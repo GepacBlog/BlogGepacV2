@@ -12,7 +12,7 @@ fuente:
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/editorial-mail/2026-05-12_gepac_impulsa-la-formacion-de-sus-asociaciones-para-mejorar-la-atencion-a-pacientes-con-cancer_01.jpg"
   alt: "impulsa la formación de sus asociaciones para mejorar la atención a pacientes con cáncer"
-destacado: true
+destacado: false
 estado: publicado
 trazabilidad:
   origen: "editorial-email-automation-v2"

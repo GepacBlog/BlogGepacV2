@@ -8,7 +8,7 @@ autor: "Equipo GEPAC"
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-05-04_gepac_gepac-impulsa-la-formacion-de-sus-asociaciones-para-mejorar-la-atencion-a-pacientes-con-cancer_01.JPG"
   alt: "Participantes en las jornadas de formación de asociaciones de GEPAC"
-destacado: true
+destacado: false
 estado: publicado
 meta_titulo: "Formación GEPAC para mejorar la atención oncológica"
 meta_descripcion: "GEPAC celebra unas jornadas de formación para sus asociaciones con foco en representación, comunicación, ética y mejora de la atención a pacientes con cáncer."
