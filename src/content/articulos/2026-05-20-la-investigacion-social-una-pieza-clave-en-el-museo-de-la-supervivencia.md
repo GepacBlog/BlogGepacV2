@@ -12,7 +12,7 @@ fuente:
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/editorial-mail/2026-05-20-la-investigacion-social-una-pieza-clave-en-el-museo-de-la-supervivencia_01.png"
   alt: "La investigación social: Una pieza clave en el museo de la supervivencia"
-destacado: true
+destacado: false
 estado: publicado
 meta_titulo: "Premios GEPAC: Reconocimiento a la investigación social en cáncer"
 meta_descripcion: "GEPAC destaca el papel de la investigación social en su 14ª edición de premios, galardonando a la Dra. Marta Morado Arias por su estudio sobre cáncer sanguíneo."
