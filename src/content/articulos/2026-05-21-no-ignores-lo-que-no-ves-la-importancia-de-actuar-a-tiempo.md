@@ -12,7 +12,7 @@ fuente:
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/editorial-mail/2026-05-21-no-ignores-lo-que-no-ves-la-importancia-de-actuar-a-tiempo_01.png"
   alt: "No ignores lo que no ves: la importancia de actuar a tiempo en cáncer de vejiga"
-destacado: true
+destacado: false
 estado: publicado
 meta_titulo: "Cáncer de vejiga: la importancia del diagnóstico precoz"
 meta_descripcion: "GEPAC lanza la campaña \"No ignores lo que no ves\" para concienciar sobre el cáncer de vejiga y la necesidad de reducir los tiempos de diagnóstico y tratamiento."
