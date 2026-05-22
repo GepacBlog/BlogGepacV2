@@ -9,6 +9,7 @@ fuente:
   nombre: "GEPAC"
   url: "https://www.gepac.es/"
   fecha_original: 2026-05-22
+layout_imagen: "contain"
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/editorial-mail/2026-05-22-accmmf-impulsa-proyectos-pioneros-para-mejorar-la-calidad-de-vida-de-pacientes_01.png"
   alt: "ACCMMF impulsa proyectos pioneros para mejorar la calidad de vida de pacientes oncológicos en Fuerteventura"
