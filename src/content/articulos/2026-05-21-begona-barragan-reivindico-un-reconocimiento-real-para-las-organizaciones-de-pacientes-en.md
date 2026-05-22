@@ -12,7 +12,7 @@ fuente:
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/editorial-mail/2026-05-21-begona-barragan-reivindico-un-reconocimiento-real-para-las-organizaciones-de-pacientes-en_01.jpg"
   alt: "Begoña Barragán reivindicó un reconocimiento real para las organizaciones de pacientes en el sistema sanitario"
-destacado: true
+destacado: false
 estado: publicado
 meta_titulo: "Begoña Barragán reclamó más reconocimiento para los pacientes"
 meta_descripcion: "Begoña Barragán destacó la importancia de integrar a las organizaciones de pacientes en la toma de decisiones sanitarias y avanzar hacia una sanidad más participativa."
