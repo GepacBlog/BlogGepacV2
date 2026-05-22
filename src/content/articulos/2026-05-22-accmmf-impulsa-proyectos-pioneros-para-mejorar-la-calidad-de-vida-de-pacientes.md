@@ -13,7 +13,7 @@ layout_imagen: "contain"
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/editorial-mail/2026-05-22-accmmf-impulsa-proyectos-pioneros-para-mejorar-la-calidad-de-vida-de-pacientes_01.png"
   alt: "ACCMMF impulsa proyectos pioneros para mejorar la calidad de vida de pacientes oncológicos en Fuerteventura"
-destacado: true
+destacado: false
 estado: publicado
 meta_titulo: "ACCMMF impulsa apoyo integral a pacientes con cáncer en Fuerteventura"
 meta_descripcion: "La ACCMMF desarrolla proyectos de apoyo emocional, fisioterapia y bienestar integral para pacientes oncológicos en Fuerteventura."
