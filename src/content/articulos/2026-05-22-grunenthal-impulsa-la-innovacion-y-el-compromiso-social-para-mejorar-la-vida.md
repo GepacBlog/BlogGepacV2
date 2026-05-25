@@ -12,7 +12,7 @@ fuente:
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/editorial-mail/2026-05-22-grunenthal-impulsa-la-innovacion-y-el-compromiso-social-para-mejorar-la-vida_01.png"
   alt: "Grünenthal impulsa la innovación y el compromiso social para mejorar la vida de las personas con dolor crónico"
-destacado: true
+destacado: false
 estado: publicado
 meta_titulo: "Grünenthal impulsa innovación y apoyo a pacientes con dolor crónico"
 meta_descripcion: "Grünenthal apuesta por la innovación terapéutica, la investigación y la colaboración con pacientes para mejorar el abordaje del dolor crónico."
