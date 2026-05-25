@@ -12,7 +12,7 @@ fuente:
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/editorial-mail/2026-05-25-el-dr-javier-cortes-castan-reconocido-entre-los-2026-giants-of-cancer_01.png"
   alt: "El Dr. Javier Cortés Castán, reconocido entre los “2026 Giants of Cancer Care®”"
-destacado: true
+destacado: false
 estado: publicado
 trazabilidad:
   origen: "editorial-intake-review"
