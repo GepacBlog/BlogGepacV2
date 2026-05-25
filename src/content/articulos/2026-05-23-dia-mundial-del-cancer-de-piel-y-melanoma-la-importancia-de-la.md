@@ -12,7 +12,7 @@ fuente:
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/editorial-mail/2026-05-23-dia-mundial-del-cancer-de-piel-y-melanoma-la-importancia-de-la_01.png"
   alt: "Día Mundial del Cáncer de Piel y Melanoma: la importancia de la prevención y la detección precoz"
-destacado: true
+destacado: false
 estado: publicado
 meta_titulo: "Día Mundial del Cáncer de Piel y Melanoma: prevención y detección"
 meta_descripcion: "GEPAC destaca la importancia de la prevención, la protección solar y la detección precoz en el Día Mundial del Cáncer de Piel y Melanoma."
