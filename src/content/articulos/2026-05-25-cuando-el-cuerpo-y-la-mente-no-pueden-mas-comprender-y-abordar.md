@@ -12,7 +12,7 @@ fuente:
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/editorial-mail/2026-05-25-cuando-el-cuerpo-y-la-mente-no-pueden-mas-comprender-y-abordar_01.png"
   alt: "Cuando el cuerpo y la mente no pueden más: comprender y abordar la fatiga en el cáncer"
-destacado: true
+destacado: false
 estado: publicado
 meta_titulo: "Fatiga oncológica y trabajo: cómo gestionar el agotamiento invisible"
 meta_descripcion: "Exploramos el impacto humano de la fatiga en el cáncer y las claves de Carola del Rincón para el autocuidado y la reincorporación laboral."
