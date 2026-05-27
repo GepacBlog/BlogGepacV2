@@ -99,8 +99,18 @@ Canal operativo que sí funcionó:
 - servidor IMAP: `imap.porkbun.com`
 - puerto: `993`
 
+Vigilancia de entrada:
+- comprobar `INBOX` cada 10 minutos mediante IMAP directo a Porkbun, en las franjas 10:00-14:00 y 15:00-19:00 (incluyendo los extremos)
+- la comprobación de buzón debe ser de solo lectura: detectar si ha llegado correo, sin mover, marcar ni alterar mensajes
+- Gmail y `agentekrok@gmail.com` no forman parte de esta vigilancia
+- al detectar una pieza editorial válida de `proyectos@gepac.es` para GEPAC, queda autorizado procesarla y publicarla directamente tras pasar todas las validaciones del flujo; no pedir confirmación adicional
+- un correo ajeno, incompleto, dudoso o que no pase validación no se publica: informar a Fer
+
 Referencia operativa actual:
-- `scratch/porkbun_imap_check.py`
+- monitor: `/Users/krokland/.openclaw/workspace/scripts/editorial_heartbeat.py`
+- programacion: `~/Library/LaunchAgents/com.krokland.editorial-heartbeat.plist` (cada 10 minutos de 10:00 a 14:00 y de 15:00 a 19:00)
+- estado local: `/Users/krokland/.openclaw/workspace/state/editorial_heartbeat.json`
+- al detectar UID nuevo, el monitor activa el flujo en OpenClaw para validar el mensaje y, si es una pieza GEPAC válida, procesarla y publicarla; el monitor por sí mismo no escribe en el buzón ni en el blog
 
 Forma correcta de leer mensajes cuando haya que sacar una pieza:
 1. entrar por IMAP a `info@krokland.com`
@@ -111,6 +121,7 @@ Forma correcta de leer mensajes cuando haya que sacar una pieza:
 
 Regla fuerte:
 - para artículos GEPAC recibidos por correo, la vía recordada y validada es `info@krokland.com` por IMAP directo a Porkbun, no Gmail
+- el sondeo periódico cada 10 minutos es lectura de buzón; cuando detecta una pieza válida inicia el flujo editorial autorizado de preparación, validación y publicación directa
 
 ## Prohibiciones explícitas
 - No trabajar en la copia interna por defecto.
