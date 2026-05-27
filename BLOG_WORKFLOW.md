@@ -106,6 +106,7 @@ Vigilancia de entrada:
 - el destino editorial se decide por el asunto, no por el remitente: `Editorial GEPAC` y `Serie GEPAC` corresponden a este blog
 - al detectar una pieza editorial válida con asunto reconocido para GEPAC, queda autorizado procesarla y publicarla directamente tras pasar todas las validaciones del flujo; no pedir confirmación adicional
 - un correo ajeno, incompleto, dudoso o que no pase validación no se publica: informar a Fer
+- tras cada correo procesado, enviar un informe por email a `fcalderonhuerta@hotmail.com`: enlace público si se publica, o motivo concreto si no se publica
 
 Referencia operativa actual:
 - monitor: `/Users/krokland/.openclaw/workspace/scripts/editorial_heartbeat.py`
@@ -141,3 +142,4 @@ Regla fuerte:
 - [ ] Solo he comiteado la pieza nueva
 - [ ] La pieza nueva queda arriba en portada (`destacado: true` salvo orden contraria)
 - [ ] He dado la URL de `BlogGepacV2`, no otra
+- [ ] He enviado a `fcalderonhuerta@hotmail.com` el resultado con enlace o motivo de no publicación
