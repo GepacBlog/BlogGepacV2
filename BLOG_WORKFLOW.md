@@ -103,7 +103,8 @@ Vigilancia de entrada:
 - comprobar `INBOX` cada 10 minutos mediante IMAP directo a Porkbun, en las franjas 10:00-14:00 y 15:00-19:00 (incluyendo los extremos)
 - la comprobación de buzón debe ser de solo lectura: detectar si ha llegado correo, sin mover, marcar ni alterar mensajes
 - Gmail y `agentekrok@gmail.com` no forman parte de esta vigilancia
-- al detectar una pieza editorial válida de `proyectos@gepac.es` para GEPAC, queda autorizado procesarla y publicarla directamente tras pasar todas las validaciones del flujo; no pedir confirmación adicional
+- el destino editorial se decide por el asunto, no por el remitente: `Editorial GEPAC` y `Serie GEPAC` corresponden a este blog
+- al detectar una pieza editorial válida con asunto reconocido para GEPAC, queda autorizado procesarla y publicarla directamente tras pasar todas las validaciones del flujo; no pedir confirmación adicional
 - un correo ajeno, incompleto, dudoso o que no pase validación no se publica: informar a Fer
 
 Referencia operativa actual:
@@ -114,7 +115,7 @@ Referencia operativa actual:
 
 Forma correcta de leer mensajes cuando haya que sacar una pieza:
 1. entrar por IMAP a `info@krokland.com`
-2. localizar el correo de `proyectos@gepac.es`
+2. localizar el correo cuyo asunto corresponda a GEPAC (`Editorial GEPAC` o `Serie GEPAC`)
 3. leer el mensaje completo por `RFC822`, no solo cabeceras parciales
 4. extraer cuerpo e imágenes adjuntas
 5. preparar la pieza en LexarIA
