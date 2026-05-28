@@ -59,6 +59,11 @@ Convención recomendada:
 - `YYYY-MM-DD_gepac_slug_01.ext`
 - `YYYY-MM-DD_gepac_slug_02.ext`
 
+Regla editorial:
+- si el correo trae dos imágenes de contenido, la `01` va como imagen principal del artículo
+- la `02` se coloca al final del cuerpo del artículo
+- si la `02` es un logo de compañía, debe ir enlazada a la web oficial de esa compañía
+
 ### 5. Build obligatorio
 Ejecutar siempre:
 - `npm run build`

@@ -54,3 +54,5 @@ Dentro de la iniciativa "Hablemos de tiempo. Hablemos de próstata", el actor y 
 ## Vídeo de la campaña
 
 [Manu Sánchez & Movember | Hablemos de tiempo. Hablemos de próstata](https://www.youtube.com/watch?v=ZlgrU3yOzsQ)
+
+[![Logo de Johnson & Johnson](/BlogGepacV2/assets/uploads/2026-05-28_gepac_hablemos-de-tiempo-la-deteccion-temprana-y-completa-del-cancer-de-prostata-puede-cambiar-vidas_02.png)](https://www.jnj.com/innovativemedicine/spain/)
