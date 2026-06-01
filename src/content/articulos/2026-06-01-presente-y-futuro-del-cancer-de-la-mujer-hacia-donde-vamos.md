@@ -3,7 +3,7 @@ titulo: "Presente y futuro del cáncer de la mujer: hacia dónde vamos"
 fecha: 2026-06-01
 categoria: general
 tags: []
-resumen: "El cáncer de mama no es solo un lazo rosa; es una realidad que afecta a una de cada 2,8 mujeres y que, a pesar de los avances, sigue arrebatando la vida de unas 7.000 mujeres cada año en nuestro país. En una conferencia organizada por GEPAC, el Dr."
+resumen: "Una conferencia de GEPAC con el Dr. Javier Cortés repasa los avances que marcarán el futuro del cáncer de la mujer: diagnóstico precoz, biopsia líquida, tratamientos dirigidos, microbiota y una atención oncológica más humana."
 autor: "Redacción GEPAC"
 fuente:
   nombre: "GEPAC"
