@@ -75,92 +75,44 @@ O quizá nos estábamos sosteniendo entre todos.
 
 Porque allí entendí algo que nunca había comprendido del todo: lo difícil que es comer cuando no se tienen ganas. Lo que cuesta dar un sorbo cuando el estómago se cierra. Lo insoportable que puede ser el olor de algo que sabes que necesitas.
 
-Y, sobre todo, entendí el miedo.
-
-El miedo a no salir.
-
-El miedo a no ver crecer a mis hijos.
-
-El miedo a dejar historias sin terminar.
+Y, sobre todo, entendí el miedo. El miedo a no salir. El miedo a no ver crecer a mis hijos. El miedo a dejar historias sin terminar.
 
 Ese miedo no se comparte fácilmente. Pero se reconoce.
 
 Yo lo sentí.
 
-Y durante un tiempo, lo ocupó todo.
-
-Hasta que apareció otra pequeña cosa.
-
-El doctorado.
+Y durante un tiempo, lo ocupó todo. Hasta que apareció otra pequeña cosa. El doctorado.
 
 No fue una gran decisión. Fue una necesidad. Algo que me empujara hacia adelante cuando todo parecía detenido. Una ilusión, una meta ante tanto caos.
 
-Me matriculé sin saber si lo terminaría.
-
-Y empecé.
+Me matriculé sin saber si lo terminaría. Y empecé.
 
 Entre sesiones, entre cansancio, entre días difíciles. Escribía poco, pero constante. Como quien reconstruye algo desde dentro.
 
 Había días en los que no podía más. Y otros en los que podía un poco.
 
-Y ese poco era suficiente.
+Y ese poco era suficiente. Porque la vida, en ciertos momentos, no avanza a grandes pasos. Avanza a pequeños.
 
-Porque la vida, en ciertos momentos, no avanza a grandes pasos. Avanza a pequeños.
+Una cucharada. Una página. Una conversación. Un abrazo.
 
-Una cucharada.
-
-Una página.
-
-Una conversación.
-
-Un abrazo
-
-Hasta que un día defendí mi tesis.
-
-Sobresaliente.
+Hasta que un día defendí mi tesis. Sobresaliente.
 
 Pero no fue solo un logro académico. Fue la prueba de que seguía adelante.
 
-Hoy, cuando miro atrás, no recuerdo solo la enfermedad.
+Hoy, cuando miro atrás, no recuerdo solo la enfermedad. Recuerdo la cuchara en el bolso. Las conversaciones en voz baja. Las miradas que acompañan. Y recuerdo el día en que volví a sentarme frente a un paciente.
 
-Recuerdo la cuchara en el bolso.
+Esta vez, de nuevo como nutricionista. Pero ya no era la misma.
 
-Las conversaciones en voz baja.
+Ahora sé que cuidar no es solo indicar. Es comprender. Es estar.
 
-Las miradas que acompañan.
+Porque en medio del cáncer, la vida no se sostiene con grandes gestos. Se sostiene con pequeñas cosas.
 
-Y recuerdo el día en que volví a sentarme frente a un paciente.
-
-Esta vez, de nuevo como nutricionista.
-
-Pero ya no era la misma.
-
-Ahora sé que cuidar no es solo indicar.
-
-Es comprender.
-
-Es estar.
-
-Porque en medio del cáncer, la vida no se sostiene con grandes gestos.
-
-Se sostiene con pequeñas cosas.
-
-Una cucharada.
-
-Una palabra.
-
-Una persona que se queda.
+Una cucharada. Una palabra. Una persona que se queda.
 
 Y entendí que, al final, no nos sostienen las grandes cosas.
 
 Nos sostienen las que caben en una cucharada.
 
 Luisa María Muñoz Salvador
-
-La cuchara en el bolso: un testimonio de cáncer, esperanza y superación
-
-Luisa María Muñoz Salvador comparte su experiencia personal con el cáncer en un relato sobre resiliencia, acompañamiento y el valor de las pequeñas cosas durante la enfermedad.
-
-testimonio cáncer, experiencia paciente oncológico, supervivencia cáncer, apoyo emocional cáncer, historia de superación cáncer, nutrición oncológica, calidad de vida cáncer, pacientes oncológicos
 
 ![Imagen adicional de Ganador del XI Concurso de Relatos: La cuchara en el bolso](/BlogGepacV2/assets/uploads/2026-06-03_gepac_ganador-del-xi-concurso-de-relatos-la-cuchara-en-el-bolso_02.png)
