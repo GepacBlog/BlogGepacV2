@@ -1,12 +1,12 @@
 ---
-titulo: "GEPAC - Ganador del XI Concurso de Relatos: La cuchara en el bolso"
+titulo: "Ganador del XI Concurso de Relatos: La cuchara en el bolso"
 fecha: 2026-06-03
 autor: "Redacción GEPAC"
 resumen: "Ganador del Concurso de Relatos de los XIV Premios GEPAC, “La cuchara en el bolso” es un emotivo testimonio de Luisa María Muñoz Salvador sobre su experiencia con el cáncer."
 tags: [relatos]
 imagen:
-  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-06-03_gepac_gepac-ganador-del-xi-concurso-de-relatos-la-cuchara-en-el-bolso_01.png"
-  alt: "GEPAC - Ganador del XI Concurso de Relatos: La cuchara en el bolso"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-06-03_gepac_ganador-del-xi-concurso-de-relatos-la-cuchara-en-el-bolso_01.png"
+  alt: "Ganador del XI Concurso de Relatos: La cuchara en el bolso"
 estado: publicado
 trazabilidad:
   origen: "editorial-automation-v2-relatos"
@@ -93,4 +93,4 @@ Luisa María Muñoz Salvador comparte su experiencia personal con el cáncer en 
 
 testimonio cáncer, experiencia paciente oncológico, supervivencia cáncer, apoyo emocional cáncer, historia de superación cáncer, nutrición oncológica, calidad de vida cáncer, pacientes oncológicos
 
-![Imagen adicional de GEPAC - Ganador del XI Concurso de Relatos: La cuchara en el bolso](/BlogGepacV2/assets/uploads/2026-06-03_gepac_gepac-ganador-del-xi-concurso-de-relatos-la-cuchara-en-el-bolso_02.png)
+![Imagen adicional de Ganador del XI Concurso de Relatos: La cuchara en el bolso](/BlogGepacV2/assets/uploads/2026-06-03_gepac_ganador-del-xi-concurso-de-relatos-la-cuchara-en-el-bolso_02.png)
