@@ -5,9 +5,12 @@ import { articulosPublicados, categoriaLabel, formatFechaCorta } from '../lib/ut
 
 const todos = await getCollection('articulos');
 const publicados = articulosPublicados(todos);
+const relatos = (await getCollection('relatos'))
+  .filter(r => r.data.estado !== 'borrador' && r.data.estado !== 'archivado')
+  .sort((a, b) => new Date(b.data.fecha) - new Date(a.data.fecha));
 
 // Index ligero para búsqueda en cliente
-const indice = publicados.map(a => ({
+const indiceArticulos = publicados.map(a => ({
   slug: a.slug,
   titulo: a.data.titulo,
   resumen: a.data.resumen,
@@ -15,8 +18,21 @@ const indice = publicados.map(a => ({
   categoriaLabel: categoriaLabel(a.data.categoria),
   fecha: a.data.fecha,
   fechaCorta: formatFechaCorta(a.data.fecha),
-  tags: a.data.tags ?? []
+  tags: a.data.tags ?? [],
+  url: `/articulo/${a.slug}`
 }));
+const indiceRelatos = relatos.map(r => ({
+  slug: r.slug,
+  titulo: r.data.titulo,
+  resumen: r.data.resumen,
+  categoria: 'relatos',
+  categoriaLabel: 'Relato',
+  fecha: r.data.fecha,
+  fechaCorta: formatFechaCorta(r.data.fecha),
+  tags: ['relatos', ...(r.data.tags ?? [])],
+  url: `/relato/${r.slug}`
+}));
+const indice = [...indiceArticulos, ...indiceRelatos];
 ---
 <Base title="Buscar · GEPAC" current="buscar">
 
@@ -44,7 +60,7 @@ const indice = publicados.map(a => ({
           autofocus
         />
       </div>
-      <p class="search-results-count" id="search-count">{indice.length} artículos disponibles</p>
+      <p class="search-results-count" id="search-count">{indice.length} publicaciones disponibles</p>
     </div>
 
     <div class="article-list" id="search-results"></div>
@@ -101,7 +117,7 @@ const indice = publicados.map(a => ({
         node.querySelector('.article-cat').textContent = it.categoriaLabel;
         const a = node.querySelector('.article-title a');
         a.textContent = it.titulo;
-        a.href = `/articulo/${it.slug}`;
+        a.href = it.url;
         node.querySelector('.article-summary').textContent = it.resumen;
         frag.appendChild(node);
       }
@@ -112,7 +128,7 @@ const indice = publicados.map(a => ({
       const raw = ($input.value || '').trim();
       if (!raw) {
         $list.innerHTML = '';
-        $count.textContent = `${indice.length} artículos disponibles`;
+        $count.textContent = `${indice.length} publicaciones disponibles`;
         return;
       }
       const q = normalizar(raw);
