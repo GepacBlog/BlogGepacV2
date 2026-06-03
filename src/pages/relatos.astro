@@ -7,6 +7,7 @@ const todos = await getCollection('relatos');
 const publicados = todos
   .filter(r => r.data.estado !== 'borrador' && r.data.estado !== 'archivado')
   .sort((a, b) => new Date(b.data.fecha) - new Date(a.data.fecha));
+const homeHref = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 ---
 <Base title="Relatos · GEPAC" current="relatos">
 
@@ -32,14 +33,14 @@ const publicados = todos
             </div>
             <div class="article-body">
               <h2 class="article-title">
-                <a href={`/relato/${r.slug}`}>{r.data.titulo}</a>
+                <a href={`${homeHref}relato/${r.slug}/`}>{r.data.titulo}</a>
               </h2>
               <p class="article-summary">{r.data.resumen}</p>
               <p style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--ink-mute); margin-top: var(--s-2);">
                 Por {r.data.autor}{r.data.autor_nota && ` · ${r.data.autor_nota}`}
               </p>
             </div>
-            <a href={`/relato/${r.slug}`} class="article-image" aria-hidden="true" tabindex="-1">
+            <a href={`${homeHref}relato/${r.slug}/`} class="article-image" aria-hidden="true" tabindex="-1">
               {r.data.imagen?.url ? (
                 <img src={r.data.imagen.url} alt="" loading="lazy" />
               ) : (
