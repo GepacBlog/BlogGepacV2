@@ -9,6 +9,7 @@ fuente:
   nombre: "GEPAC"
   url: "https://gepacblog.github.io/BlogGepacV2"
   fecha_original: 2026-06-05
+layout_imagen: "contain"
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-06-05_gepac_cristina-medina-reconocida-en-los-xiv-premios-gepac-por-su-impacto-social-en-el-ambito-oncologico_01.jpg"
   alt: "Cristina Medina, reconocida en los XIV Premios GEPAC por su impacto social en el ámbito oncológico"
