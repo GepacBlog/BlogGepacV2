@@ -30,9 +30,3 @@ La categoría reconoce a aquellas personalidades que logran convertir su experie
 La entrega del galardón estuvo a cargo de Dña. Begoña Barragán García, presidenta de GEPAC, quien acompañó a Cristina Medina durante uno de los momentos más emotivos de la gala.
 A lo largo de los últimos años, Cristina Medina ha compartido públicamente su experiencia como paciente oncológica, contribuyendo a normalizar conversaciones relacionadas con la enfermedad y ofreciendo una visión sincera sobre el proceso de afrontamiento, tratamiento y recuperación.
 Con este premio, GEPAC reconoce no solo su trayectoria artística y social, sino también el impacto positivo de su testimonio en miles de personas que conviven con el cáncer y encuentran en voces como la suya un espacio de identificación, apoyo y visibilidad.
-
-Cristina Medina recibe el Premio GEPAC 2026 por su impacto social en oncología
-
-Cristina Medina Conde ha sido reconocida en los XIV Premios GEPAC por su labor de sensibilización y visibilización de la realidad del cáncer.
-
-Cristina Medina cáncer, Premios GEPAC 2026, personalidad social oncología, sensibilización cáncer, pacientes oncológicos, impacto social cáncer, actriz cáncer España
