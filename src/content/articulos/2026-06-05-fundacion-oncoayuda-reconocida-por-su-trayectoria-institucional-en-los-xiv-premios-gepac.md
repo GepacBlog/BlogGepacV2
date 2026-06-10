@@ -32,10 +32,4 @@ En representación de Fundación Oncoayuda recogieron el premio el Dr. Javier Ro
 La gala reunió además a representantes institucionales, organizaciones de pacientes y profesionales sanitarios en un espacio de encuentro centrado en la importancia de seguir avanzando hacia una atención más humana, equitativa y centrada en las personas. Durante el acto, Begoña Barragán, presidenta de GEPAC, destacó la necesidad de reforzar la colaboración entre todos los agentes implicados para responder a los retos que plantea el cáncer y continuar construyendo un movimiento asociativo sólido y duradero.
 Este reconocimiento supone un impulso al trabajo que Fundación Oncoayuda desarrolla desde hace años para acompañar a pacientes y familiares durante el proceso oncológico, promoviendo iniciativas centradas en la humanización, el apoyo emocional y la mejora de la calidad de vida.
 
-Fundación Oncoayuda recibe el Premio GEPAC 2026 por su trayectoria institucional
-
-Fundación Oncoayuda ha sido reconocida en los XIV Premios GEPAC por su trayectoria institucional y su compromiso con los pacientes oncológicos y sus familias.
-
-Premios GEPAC 2026, Fundación Oncoayuda, trayectoria institucional oncología, asociaciones pacientes cáncer, humanización cáncer, calidad de vida pacientes oncológicos, gala GEPAC 2026
-
 ![Imagen adicional de Fundación Oncoayuda, reconocida por su trayectoria institucional en los XIV Premios GEPAC](/BlogGepacV2/assets/uploads/2026-06-05_gepac_fundacion-oncoayuda-reconocida-por-su-trayectoria-institucional-en-los-xiv-premios-gepac_02.jpg)

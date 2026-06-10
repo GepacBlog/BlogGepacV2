@@ -48,10 +48,4 @@ C/ Doctor Esquerdo, 83 – Madrid
 
 La jornada representa una oportunidad para conocer más de cerca la labor de GEPAC y descubrir los recursos que pueden contribuir a mejorar la calidad de vida de pacientes y familiares durante el proceso oncológico.
 
-GEPAC presentará sus recursos para pacientes en una jornada organizada por Fundación Oncoayuda
-
-Fundación Oncoayuda organiza una jornada informativa con GEPAC para dar a conocer los recursos de apoyo disponibles para pacientes con cáncer y sus familias.
-
-GEPAC pacientes cáncer, Fundación Oncoayuda jornada pacientes, Begoña Barragán GEPAC, apoyo pacientes oncológicos, recursos cáncer familias, asociaciones pacientes cáncer España, Hospital Beata María Ana cáncer
-
 ![Imagen adicional de Fundación Oncoayuda organiza una jornada para presentar los recursos de GEPAC a pacientes y familiares](/BlogGepacV2/assets/uploads/2026-06-10_gepac_fundacion-oncoayuda-organiza-una-jornada-para-presentar-los-recursos-de-gepac-a-pacientes-y-familiares_02.jpg)

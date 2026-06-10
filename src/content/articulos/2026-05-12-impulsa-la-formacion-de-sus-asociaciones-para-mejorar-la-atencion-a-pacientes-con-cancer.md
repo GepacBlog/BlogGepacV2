@@ -50,12 +50,6 @@ Su implicación pone de manifiesto la importancia de la colaboración entre todo
 Compromiso con la mejora continua
 Con esta iniciativa, GEPAC reafirma su compromiso con el fortalecimiento del movimiento asociativo y la mejora continua de la atención a las personas con cáncer. La formación se consolida, así como una herramienta estratégica para impulsar asociaciones más preparadas, conectadas y capaces de generar un impacto real y duradero en la vida de los pacientes.
 
-Formación GEPAC: impulso a asociaciones de pacientes con cáncer
-
-GEPAC organiza jornadas de formación para asociaciones centradas en innovación, impacto y mejora de la atención a pacientes con cáncer.
-
-formación asociaciones cáncer España, GEPAC jornadas pacientes oncología, movimiento asociativo cáncer formación, asociaciones pacientes España colaboración, innovación oncología formación GEPAC
-
 ## Enlaces oficiales
 
 - [GEPAC](http://www.gepac.es/)

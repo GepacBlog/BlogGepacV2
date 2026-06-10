@@ -47,12 +47,6 @@ Conocer los efectos secundarios y saber cómo gestionarlos permite reducir su im
 
  
 
-Efectos secundarios del cáncer: cómo gestionarlos y mejorar la calidad de vida.
-
-GEPAC analiza los efectos secundarios más frecuentes del cáncer y la importancia del acompañamiento y la información para mejorar la calidad de vida.
-
-efectos secundarios cáncer tratamiento, fatiga cáncer calidad de vida, acompañamiento emocional oncología, secuelas tratamientos oncológicos, bienestar pacientes cáncer, Serie GEPAC efectos secundarios.
-
 ## Enlaces oficiales
 
 - [GEPAC](http://www.gepac.es/)
