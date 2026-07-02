@@ -1,19 +1,16 @@
 ---
 titulo: "GEPAC refuerza el movimiento asociativo con una nueva edición de la Formación para Asociaciones"
-fecha: 2025-11-01
+fecha: 2025-11-29
 categoria: general
 tags: []
-resumen: "De: Sergio Cobas Lorente | Gepac <comunicacion@gepac.es>
-Fecha: jueves, 2 de julio de 2026 a las 9:12
-Para: Fernando Calderón Huerta | Gepac <proyectos@gepac.es>
-Asunto: Editorial GEPAC - GEPAC refuerza el movimiento asociativo con una nueva edición de la Formación para..."
+resumen: "GEPAC celebró una nueva edición de la Formación para Asociaciones, un encuentro que reunió a representantes de entidades de pacientes de toda España para compartir conocimientos, fortalecer sus capacidades y fomentar la colaboración."
 autor: "Redacción GEPAC"
 fuente:
   nombre: "GEPAC"
   url: "https://gepacblog.github.io/BlogGepacV2"
-  fecha_original: 2025-11-01
+  fecha_original: 2025-11-29
 imagen:
-  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2025-11-01_gepac_gepac-refuerza-el-movimiento-asociativo-con-una-nueva-edicion-de-la-formacion-para-asociaciones_01.jpg"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2025-11-29_gepac_gepac-refuerza-el-movimiento-asociativo-con-una-nueva-edicion-de-la-formacion-para-asociaciones_01.jpg"
   alt: "GEPAC refuerza el movimiento asociativo con una nueva edición de la Formación para Asociaciones"
 destacado: false
 estado: publicado
@@ -22,32 +19,20 @@ trazabilidad:
   message_id: "<MA2P292MB0225AFED9A1D2B0AC293E8F9C8F52@MA2P292MB0225.ESPP292.PROD.OUTLOOK.COM>"
 ---
 
-De: Sergio Cobas Lorente | Gepac <comunicacion@gepac.es>
-Fecha: jueves, 2 de julio de 2026 a las 9:12
-Para: Fernando Calderón Huerta | Gepac <proyectos@gepac.es>
-Asunto: Editorial GEPAC - GEPAC refuerza el movimiento asociativo con una nueva edición de la Formación para Asociaciones
+## GEPAC impulsa una nueva edición de su formación para asociaciones para fortalecer el movimiento asociativo en cáncer
 
-EDITORIAL: GEPAC
-
-TÍTULO: GEPAC refuerza el movimiento asociativo con una nueva edición de la Formación para Asociaciones
-
-FECHA: 2025-11-29
-
-AUTOR: Equipo GEPAC
-
-RESUMEN PORTADA:
-GEPAC celebró una nueva edición de la Formación para Asociaciones, un encuentro que reunió a representantes de entidades de pacientes de toda España para compartir conocimientos, fortalecer sus capacidades y fomentar la colaboración. Durante dos jornadas se abordaron temas clave como la inteligencia artificial, la participación de los pacientes, la evaluación de proyectos o la prevención en cáncer.
-
-GEPAC impulsa una nueva edición de su formación para asociaciones para fortalecer el movimiento asociativo en cáncer
 El Grupo Español de Pacientes con Cáncer (GEPAC) celebró los días 27 y 28 de noviembre de 2025 una nueva edición de las jornadas de Formación para asociaciones de GEPAC, un encuentro dirigido a las entidades que forman parte de la organización con el objetivo de reforzar sus capacidades, compartir experiencias y seguir avanzando en la mejora de la atención a las personas con cáncer y sus familias.
 
 La iniciativa reunió a 63 representantes de asociaciones integradas en GEPAC, consolidándose como un espacio de aprendizaje, colaboración e intercambio de conocimientos entre las organizaciones que forman parte del movimiento asociativo oncológico.
 
-Dos jornadas centradas en la formación y el intercambio de experiencias
+## Dos jornadas centradas en la formación y el intercambio de experiencias
+
 La formación se desarrolló en dos sedes. La primera jornada tuvo lugar en el Hotel Amura, en Alcobendas, mientras que la segunda se celebró en la Facultad de Ciencias Económicas y Empresariales de la Universidad CEU San Pablo, en Madrid.
+
 Durante ambas jornadas se abordaron cuestiones de especial relevancia para las asociaciones de pacientes, combinando talleres participativos con ponencias impartidas por profesionales de referencia en diferentes ámbitos.
 
-Un programa adaptado a los retos actuales
+## Un programa adaptado a los retos actuales
+
 El programa incluyó sesiones dedicadas a aspectos clave para el presente y el futuro del movimiento asociativo, entre ellas:
 
 * El acompañamiento emocional desde la psicooncología.
@@ -59,12 +44,16 @@ El programa incluyó sesiones dedicadas a aspectos clave para el presente y el f
 
 Estas sesiones permitieron a los asistentes adquirir nuevas herramientas para afrontar los desafíos actuales del asociacionismo de pacientes y fortalecer el papel de las entidades en la defensa de los derechos de las personas con cáncer.
 
-Un espacio para seguir creciendo juntos
+## Un espacio para seguir creciendo juntos
+
 Además del contenido formativo, las jornadas favorecieron el intercambio de experiencias entre asociaciones de diferentes puntos de España, promoviendo la colaboración y la creación de nuevas sinergias dentro del movimiento asociativo impulsado por GEPAC.
+
 La iniciativa también contó con una importante difusión a través de la página web de GEPAC y de las redes sociales de la organización y de numerosas asociaciones, ampliando el alcance de la actividad y acercando sus contenidos a un mayor número de personas.
 
-Gracias a quienes lo hicieron posible
+## Gracias a quienes lo hicieron posible
+
 Desde GEPAC queremos agradecer la participación de todas las asociaciones asistentes, así como la implicación de los ponentes que compartieron sus conocimientos durante las jornadas.
+
 Asimismo, esta iniciativa fue posible gracias al apoyo de GSK, Johnson & Johnson y Roche, cuyo compromiso contribuyó al desarrollo de este encuentro formativo dirigido a fortalecer el movimiento asociativo en cáncer.
 
-![Imagen adicional de GEPAC refuerza el movimiento asociativo con una nueva edición de la Formación para Asociaciones](/BlogGepacV2/assets/uploads/2025-11-01_gepac_gepac-refuerza-el-movimiento-asociativo-con-una-nueva-edicion-de-la-formacion-para-asociaciones_02.png)
+![Imagen adicional de GEPAC refuerza el movimiento asociativo con una nueva edición de la Formación para Asociaciones](/BlogGepacV2/assets/uploads/2025-11-29_gepac_gepac-refuerza-el-movimiento-asociativo-con-una-nueva-edicion-de-la-formacion-para-asociaciones_02.png)
