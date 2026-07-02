@@ -56,4 +56,13 @@ Desde GEPAC queremos agradecer la participación de todas las asociaciones asist
 
 Asimismo, esta iniciativa fue posible gracias al apoyo de GSK, Johnson & Johnson y Roche, cuyo compromiso contribuyó al desarrollo de este encuentro formativo dirigido a fortalecer el movimiento asociativo en cáncer.
 
+## Enlaces de interés
+
+* [GEPAC](https://www.gepac.es/)
+* [GSK España](https://es.gsk.com/es-es/home/)
+* [Johnson & Johnson Innovative Medicine España](https://www.jnj.com/innovativemedicine/spain/)
+* [Roche España](https://www.roche.es/)
+* [Universidad CEU San Pablo](https://www.uspceu.com/)
+* [Hotel Amura Alcobendas](https://www.hotelamura.com/)
+
 ![Imagen adicional de GEPAC refuerza el movimiento asociativo con una nueva edición de la Formación para Asociaciones](/BlogGepacV2/assets/uploads/2025-11-29_gepac_gepac-refuerza-el-movimiento-asociativo-con-una-nueva-edicion-de-la-formacion-para-asociaciones_02.png)
