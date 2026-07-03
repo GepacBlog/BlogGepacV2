@@ -37,10 +37,9 @@ Claves para el paciente y su entorno:
 * Identidad más allá de la enfermedad: Recordar que el cáncer es solo un aspecto de la vida. La esencia de la persona, sus proyectos y sus afectos se mantienen antes y después del diagnóstico.
 * Presencia emocional: El entorno no necesita encontrar "palabras perfectas"; basta con el acompañamiento y la escucha activa.
 
-Enlaces oficiales: https://www.youtube.com/watch?v=JQuRXcVfPCA
-
 ## Enlaces de interés
 
 * [GEPAC](https://www.gepac.es/)
+* [Vídeo oficial de GEPAC](https://www.youtube.com/watch?v=JQuRXcVfPCA)
 
 ![Imagen adicional de Día Mundial del Cáncer de Próstata: romper el silencio para ganar calidad de vida](/BlogGepacV2/assets/uploads/2026-07-03_gepac_dia-mundial-del-cancer-de-prostata-romper-el-silencio-para-ganar-calidad-de-vida_02.jpg)
