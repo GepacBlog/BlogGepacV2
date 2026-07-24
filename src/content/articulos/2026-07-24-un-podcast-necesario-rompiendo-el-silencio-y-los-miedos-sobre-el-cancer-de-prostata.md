@@ -32,14 +32,11 @@ El "rollo" central de la charla es entender que el cáncer de próstata es un en
 Este podcast no solo ofrece información médica; ofrece esperanza y cercanía. Es una invitación a todos los hombres, especialmente a partir de los 50 años (o 45 si hay antecedentes), a perder el miedo a las revisiones y a entender que un diagnóstico precoz es la llave para seguir contando historias.
 Ya puedes escuchar este episodio y unirte a la conversación en plataformas como iVoox y Spotify. Porque hablar de ello es el primer paso para superarlo.
 
-ENLACES:
-
-SPOTIFY
-https://open.spotify.com/show/033o0Qcl3ACat63baBBAn6?si=cfmxR7b4QpaXuE-eHZ5ZkQ
-
-IVOOX
-https://go.ivoox.com/sq/3175267
-
 ## Enlaces de interés
 
 * [GEPAC](https://www.gepac.es/)
+* [Ipsen España](https://www.ipsen.com/spain/)
+* [ANCAP](https://ancap.es/)
+* [Asociación Española de Urología](https://www.aeu.es/)
+* [Podcast en Spotify](https://open.spotify.com/show/033o0Qcl3ACat63baBBAn6?si=cfmxR7b4QpaXuE-eHZ5ZkQ)
+* [Podcast en iVoox](https://go.ivoox.com/sq/3175267)
