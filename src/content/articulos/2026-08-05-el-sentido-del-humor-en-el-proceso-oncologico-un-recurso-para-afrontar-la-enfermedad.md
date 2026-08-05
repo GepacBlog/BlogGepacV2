@@ -13,6 +13,7 @@ imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-08-05_gepac_el-sentido-del-humor-en-el-proceso-oncologico-un-recurso-para-afrontar-la-enfermedad_01.png"
   alt: "El sentido del humor en el proceso oncológico: un recurso para afrontar la enfermedad"
 layout_imagen: contain
+texto_justificado: true
 destacado: true
 estado: publicado
 trazabilidad:

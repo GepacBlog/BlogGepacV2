@@ -791,6 +791,23 @@ button { font: inherit; cursor: pointer; background: none; border: 0; color: inh
   .article-content { padding: 0; font-size: 1.22rem; }
 }
 .article-content > * + * { margin-top: var(--s-5); }
+/* Texto justificado, activable artículo por artículo con `texto_justificado: true`
+   en el front-matter. Sin ese campo, nada cambia respecto a lo ya publicado.
+   El guionado automático es imprescindible: sin él, el español deja ríos de
+   espacios. Funciona porque el documento declara lang="es".
+   En móvil NO se justifica: con ~327 px de columna el hueco medio por línea llega
+   al 25 % y el peor caso al 50 %, que es ilegible. Justificar exige líneas largas. */
+.article-content[data-justificado] p,
+.article-content[data-justificado] li {
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+@media (min-width: 768px) {
+  .article-content[data-justificado] p,
+  .article-content[data-justificado] li {
+    text-align: justify;
+  }
+}
 .article-content h2 {
   font-family: var(--font-display);
   font-size: clamp(1.5rem, 2.5vw, 1.9rem);

@@ -45,6 +45,9 @@ const articulos = defineCollection({
       }).optional(),
       layout_imagen: z.enum(['cover', 'contain']).optional(),
 
+      // ── Justificado del cuerpo (por artículo) ──────────────────
+      texto_justificado: z.boolean().default(false),
+
       // ── Autoría ────────────────────────────────────────────────
       autor: z.string().default('Redacción GEPAC'),
 
