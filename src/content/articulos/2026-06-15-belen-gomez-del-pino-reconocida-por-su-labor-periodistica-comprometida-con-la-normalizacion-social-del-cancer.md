@@ -11,7 +11,8 @@ fuente:
   fecha_original: 2026-06-15
 imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-06-15_gepac_belen-gomez-del-pino-reconocida-por-su-labor-periodistica-comprometida-con-la-normalizacion-social-del-cancer_01.jpg"
-  alt: "Belén Gómez del Pino, reconocida por su labor periodística comprometida con la normalización social del cáncer"
+  alt: "Entrega de los XIV Premios GEPAC en el escenario del Palacio de la Prensa, con las personas premiadas sosteniendo sus galardones y diplomas"
+layout_imagen: contain
 destacado: true
 estado: publicado
 trazabilidad:
