@@ -9,6 +9,10 @@ fuente:
   nombre: "GEPAC"
   url: "https://gepacblog.github.io/BlogGepacV2"
   fecha_original: 2026-09-21
+imagen:
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-09-21_gepac_begona-barragan-reclama-mas-cohesion-ante-la-futura-ley-de-organizaciones-de-pacientes_01.jpg"
+  alt: "Participantes en la II Jornada sobre la Ley de Organizaciones de Pacientes, ante la pantalla con el lema «¿horizonte o realidad?»"
+layout_imagen: contain
 destacado: true
 estado: publicado
 meta_titulo: "Begoña Barragán ante la Ley de Pacientes"
@@ -75,3 +79,5 @@ La futura Ley de Organizaciones de Pacientes representa así una oportunidad par
 * [GEPAC](https://www.gepac.es/)
 * [Foro Español de Pacientes](https://pacientesfep.org/)
 * [Congreso de los Diputados](https://www.congreso.es/)
+
+![Begoña Barragán durante el coloquio «Un año después: avances en la participación de las organizaciones de pacientes»](/BlogGepacV2/assets/uploads/2026-09-21_gepac_begona-barragan-reclama-mas-cohesion-ante-la-futura-ley-de-organizaciones-de-pacientes_02.jpg)
