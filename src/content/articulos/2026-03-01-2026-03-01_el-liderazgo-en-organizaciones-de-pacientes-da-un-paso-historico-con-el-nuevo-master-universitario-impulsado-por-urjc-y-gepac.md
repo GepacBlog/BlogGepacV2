@@ -7,8 +7,8 @@ resumen: "URJC y GEPAC lanzan un máster pionero en liderazgo y gestión de orga
 autor: "Equipo GEPAC"
 layout_imagen: "contain"
 imagen:
-  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-03-01_gepac_el-liderazgo-en-organizaciones-de-pacientes-da-un-paso-historico-con-el-nuevo-master-universitario-impulsado-por-urjc-y-gepac_01.png"
-  alt: "El liderazgo en organizaciones de pacientes da un paso histórico con el nuevo Máster de formación permanente impulsado por URJC y GEPAC"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-03-01_gepac_el-liderazgo-en-organizaciones-de-pacientes-da-un-paso-historico-con-el-nuevo-master-universitario-impulsado-por-urjc-y-gepac_01.webp"
+  alt: "Cartel del Máster de formación permanente en Liderazgo y Gestión de Organizaciones de Pacientes, primera edición 2026, de la URJC y GEPAC, con sus entidades patrocinadoras"
 destacado: false
 estado: publicado
 ---
@@ -48,3 +48,5 @@ No es una formación pensada para la observación teórica del sistema, sino par
 El programa cuenta con un sistema de becas orientado a facilitar el acceso y promover la equidad territorial y organizativa, asegurando que ninguna persona con capacidad y compromiso quede excluida por motivos económicos.
 
 Formar parte de esta primera promoción supone integrarse en una iniciativa pionera que busca fortalecer el liderazgo del movimiento asociativo y consolidar su papel como actor legítimo dentro del sistema sanitario.
+
+![Cartel vertical del Máster de formación permanente en Liderazgo y Gestión de Organizaciones de Pacientes de la URJC y GEPAC](/BlogGepacV2/assets/uploads/2026-03-01_gepac_el-liderazgo-en-organizaciones-de-pacientes-da-un-paso-historico-con-el-nuevo-master-universitario-impulsado-por-urjc-y-gepac_02.png)
