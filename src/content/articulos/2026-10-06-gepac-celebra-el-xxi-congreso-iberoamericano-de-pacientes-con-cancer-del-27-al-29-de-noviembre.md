@@ -13,6 +13,7 @@ imagen:
   url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-10-06_gepac_gepac-celebra-el-xxi-congreso-iberoamericano-de-pacientes-con-cancer-del-27-al-29-de-noviembre_01.png"
   alt: "Cartel del XXI Congreso Iberoamericano de Pacientes con Cáncer, con el lema «Todas las rutas importan», del 27 al 29 de noviembre de 2026 en Madrid"
 layout_imagen: contain
+texto_justificado: true
 destacado: true
 estado: publicado
 meta_titulo: "XXI Congreso Iberoamericano de Pacientes con Cáncer"
