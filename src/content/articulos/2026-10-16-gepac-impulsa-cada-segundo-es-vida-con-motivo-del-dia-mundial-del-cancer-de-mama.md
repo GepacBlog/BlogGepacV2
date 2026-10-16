@@ -9,6 +9,10 @@ fuente:
   nombre: "GEPAC"
   url: "https://gepacblog.github.io/BlogGepacV2"
   fecha_original: 2026-10-16
+imagen:
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-10-16_gepac_gepac-impulsa-cada-segundo-es-vida-con-motivo-del-dia-mundial-del-cancer-de-mama_01.webp"
+  alt: "Cartel de la campaña «Cada segundo es vida» de GEPAC para el Día Mundial del Cáncer de Mama, el 19 de octubre de 2026, con el patrocinio de MÊME Dermo-Cosmétique"
+layout_imagen: contain
 destacado: true
 estado: publicado
 meta_titulo: "Cada segundo es vida: campaña de GEPAC sobre cáncer de mama"
