@@ -795,18 +795,15 @@ button { font: inherit; cursor: pointer; background: none; border: 0; color: inh
    en el front-matter. Sin ese campo, nada cambia respecto a lo ya publicado.
    El guionado automático es imprescindible: sin él, el español deja ríos de
    espacios. Funciona porque el documento declara lang="es".
-   En móvil NO se justifica: con ~327 px de columna el hueco medio por línea llega
-   al 25 % y el peor caso al 50 %, que es ilegible. Justificar exige líneas largas. */
+   Se justifica en cualquier pantalla, por decisión de Fer del 05-11-2026: antes
+   solo a partir de 768 px, y en una ventana de escritorio a media pantalla el
+   texto salía sin justificar y parecía que el campo no funcionaba. En móvil los
+   huecos son más visibles; el guionado los reduce todo lo que se puede. */
 .article-content[data-justificado] p,
 .article-content[data-justificado] li {
   -webkit-hyphens: auto;
   hyphens: auto;
-}
-@media (min-width: 768px) {
-  .article-content[data-justificado] p,
-  .article-content[data-justificado] li {
-    text-align: justify;
-  }
+  text-align: justify;
 }
 .article-content h2 {
   font-family: var(--font-display);
