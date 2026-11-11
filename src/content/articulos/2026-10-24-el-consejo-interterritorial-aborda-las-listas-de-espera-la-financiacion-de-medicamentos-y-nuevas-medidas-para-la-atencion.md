@@ -1,6 +1,6 @@
 ---
 titulo: "El Consejo Interterritorial aborda las listas de espera, la financiación de medicamentos y nuevas medidas para la atención oncológica"
-fecha: 2026-10-23
+fecha: 2026-10-24
 categoria: derechos-paciente
 tags: ["gepac", "consejo interterritorial", "sistema nacional de salud", "cisns", "listas de espera", "financiacion de medicamentos", "cancer", "protonterapia", "pacientes con cancer", "atencion oncologica", "sanidad publica", "comunidades autonomas", "equidad sanitaria"]
 resumen: "El Consejo Interterritorial del Sistema Nacional de Salud incluyó en su reunión del 23 de octubre cuestiones relacionadas con las listas de espera, la financiación de medicamentos y la atención oncológica. Entre las propuestas destacan los criterios de acceso a la protonterapia y la financiación de sistemas de información sobre cáncer."
@@ -8,9 +8,9 @@ autor: "Redacción GEPAC"
 fuente:
   nombre: "GEPAC"
   url: "https://gepacblog.github.io/BlogGepacV2"
-  fecha_original: 2026-10-23
+  fecha_original: 2026-10-24
 imagen:
-  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-10-23_gepac_el-consejo-interterritorial-aborda-las-listas-de-espera-la-financiacion-de-medicamentos-y-nuevas-medidas-para-la-atencion_01.webp"
+  url: "https://gepacblog.github.io/BlogGepacV2/assets/uploads/2026-10-24_gepac_el-consejo-interterritorial-aborda-las-listas-de-espera-la-financiacion-de-medicamentos-y-nuevas-medidas-para-la-atencion_01.webp"
   alt: "Ilustración de una reunión sanitaria bajo el rótulo «Atención oncológica y equidad sanitaria», con paneles sobre listas de espera, financiación de medicamentos, protonterapia y un mapa de España"
 layout_imagen: contain
 destacado: false
